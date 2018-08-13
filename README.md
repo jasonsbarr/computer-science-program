@@ -1,5 +1,30 @@
 # Open Source Personal Computer Science Learning Program
 
+## Contents
+
+- [Program Goal](#goal)
+- [Materials Used](#materials)
+- [Methodology](#methodology)
+- [Curriculum](#curriculum)
+  - [Preparatory Courses](#preparatory)
+  - [Computer Science Introduction](#computer-science-introduction)
+  - [Programming & Software Engineering](#programming)
+  - [Mathematics](#math)
+  - [Data Structures & Algorithms](#data-structuresalgorithms)
+  - [Computer Science Theory](#cs-theory)
+  - [Computer Architecture](#computer-architecture)
+  - [Hardware and Software Systems](#systems)
+  - [Networking](#networking)
+  - [Operating Systems](#operating-systems)
+  - [Databases](#databases)
+  - [Specialization: Modern Web Development with Data Science Applications](#web-development-specialization)
+- [Resources](#resources)
+  - [Program Design](#program-design)
+  - [Ultralearning](#ultralearning)
+  - [Project-Based Learning](#project-based-learning)
+  - [Problems for Practice](#practice-problems)
+- [Legal Information](#legal)
+
 ## Goal
 
 To attain roughly a BS-level computer science education with a specialization in modern full-stack web development with data science applications in approximately 2-3 years using material available to the general public outside of a university setting.
