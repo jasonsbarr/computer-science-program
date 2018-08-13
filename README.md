@@ -197,7 +197,6 @@ _TODO: Create separate repo&mdash;far fewer college courses are available due to
 - https://github.com/trekhleb/javascript-algorithms
 - Python Interview Prep: https://www.hackerrank.com/chingu-challenge-3
 - JavaScript Interview Prep: https://www.hackerrank.com/chingu-challenge-9-javascript-prep
-- https://github.com/tuvtran/project-based-learning
 - https://www.hackerrank.com/interview/interview-preparation-kit
 
 ## Legal
