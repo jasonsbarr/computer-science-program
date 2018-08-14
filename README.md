@@ -18,6 +18,7 @@
   - [Operating Systems](#operating-systems)
   - [Databases](#databases)
   - [Specialization: Modern Web Development with Data Science Applications](#web-development-specialization)
+  - [Capstone Project](#capstone-project)
 - [Resources](#resources)
   - [Program Design](#program-design)
   - [Ultralearning](#ultralearning)
@@ -163,7 +164,42 @@ I will be using a number of resources to create the curriculum:
 
 ### Web Development Specialization
 
-_TODO: Create separate repo&mdash;far fewer college courses are available due to the rapid pace of change in web development so the structure & materials for this part of the project are a bit different._
+- Web Development Fundamentals
+  - Modern JavaScript
+  - HTML5
+  - CSS3
+- Advanced JavaScript
+- JavaScript and Computer Science Fundamentals
+  - Data Structures and Algorithms
+  - Functional Programming
+  - Object-Oriented Programming
+- Application Design and Architecture
+  - UX
+  - JavaScript Design Patterns
+  - Application Development
+- Advanced Applications: Testing, Security, and Performance
+- Backend Web Development: Node, Express, and Databases
+- UI and Full Stack Development with React
+- Progressive Web Apps
+- Python and Django Web Development
+- Python for Data Science
+- Probability and Statistics Using Python
+- Machine Learning with Python
+- Data Visualization and Machine Learning for the Web
+- Modern Workflow, Tools, Server/Cloud Administration, and DevOps with CI/CD
+
+### Capstone Project
+
+Build and deploy a large scale (e.g. could be an early version of an enterprise or startup application) database-driven full-stack application with:
+
+- User authentication
+- Admin panel
+- Data science/machine learning component
+- Access to at least one external API 
+
+App must feature good UX principles, a well-planned application architecture, performance optimization, reasonably secure code, and be built using test or behavior-driven principles.
+
+Node should be the application backend and the data processing/machine learning application should be in Python.
 
 ## Resources
 
