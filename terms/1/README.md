@@ -1,6 +1,6 @@
 # Term 1: Personal CS Plan
 
-Term dates: 08/13/2018&ndash;11/11/2018
+Term dates: 08/13/2018 &ndash; 11/11/2018
 
 ## Courses
 

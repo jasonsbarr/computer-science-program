@@ -72,19 +72,21 @@ I will be using a number of resources to create the curriculum:
 
 ### Preparatory
 
-- Math Review: Algebra, Geometry, Trigonometry (Khan Academy and other resources)
+- Math Review: Algebra, Geometry, Trigonometry ([Khan Academy](https://khanacademy.org) and other resources)
 - Precalculus (EdX, UT Austin)
 
 ### Computer Science Introduction
 
-- Course: Introduction to Computer Science and Programming (MIT 6.001)
-- Course: Introduction to Computational Thinking and Data Science (MIT 6.002)
+- Course: [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) (MIT 6.001)
+- Course: [Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/) (MIT 6.002)
 
 ### Programming
 
 #### Introductory
 
-- Course: Structure and Interpretation of Computer Programs - Racket/Scheme version (UC Berkeley CS 61AS)
+- Course: [Structure and Interpretation of Computer Programs - Racket/Scheme version](https://berkeley-cs61as.github.io) (UC Berkeley CS 61AS)
+  - [Archived Video Lectures](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter)
+  - [Assignments](https://berkeley-cs61as.github.io/textbook.html)
 
 #### Object-Oriented Programming
 
