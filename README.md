@@ -78,7 +78,7 @@ I will be using a number of resources to create the curriculum:
 
 ### Computer Science Introduction
 
-- Course: [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) (MIT 6.001)
+- Course: [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) (MIT 6.001) [(EdX version)](https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python)
 - Course: [Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/) (MIT 6.002)
 
 ### Programming
