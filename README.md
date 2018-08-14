@@ -72,12 +72,11 @@ I will be using a number of resources to create the curriculum:
 
 ### Preparatory
 
-- Course: Learning How to Learn (Coursera)
-- Math Review: Algebra, Geometry, Trigonometry, Precalculus (Khan Academy)
+- Math Review: Algebra, Geometry, Trigonometry (Khan Academy and other resources)
+- Precalculus (EdX, UT Austin)
 
 ### Computer Science Introduction
 
-- Course: CS50 (Harvard)
 - Course: Introduction to Computer Science and Programming (MIT 6.001)
 - Course: Introduction to Computational Thinking and Data Science (MIT 6.002)
 
