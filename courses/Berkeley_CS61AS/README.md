@@ -14,7 +14,7 @@ To teach about programming and software by mastering the techniques used for con
 ### Supplemental
 
 - [Video lectures from old version of course](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter)
-- [Full Python version of course](https://cs61a.org/)
+- [CS 61A (Python version of course), Fall 2017 with video lectures](https://inst.eecs.berkeley.edu/~cs61a/fa17/)
 - [_Composing Programs_: free online textbook for CS 61A](http://composingprograms.com/)
 - [_How To Design Programs_](https://htdp.org/)
 - _Structure and Interpretation of Computer Programs_
