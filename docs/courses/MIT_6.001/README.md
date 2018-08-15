@@ -20,14 +20,14 @@ To provide students with an understanding of the role computation can play in so
 
 ## Time Frame
 
-8/14/2018 - 9/23/2018 (6 week half term)
+8/14/2018 - 9/25/2018 (6.5 week half term)
 
 ## Requirements
 
 - Problem sets for each EdX week
 - Finger exercises for each lecture
 - Midterm (Due 9/2)
-- Final (Due 9/23)
+- Final (Due 9/25
 
 ## Schedule
 
