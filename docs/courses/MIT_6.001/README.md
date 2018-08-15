@@ -16,6 +16,7 @@ To provide students with an understanding of the role computation can play in so
 - [MIT OCW](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm)
 - [Alternative textbook - free](http://greenteapress.com/wp/think-python-2e/)
 - [Tutorials](https://plus.google.com/u/0/106151843486000968534)
+- [Harvard CS50](http://cs50.tv/2017/fall/)
 
 ## Time Frame
 
