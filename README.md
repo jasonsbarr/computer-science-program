@@ -78,14 +78,14 @@ I will be using a number of resources to create the curriculum:
 
 ### Computer Science Introduction
 
-- Course: [Introduction to Computer Science and Programming in Python (MIT 6.001)](./courses/MIT_6.001)
+- Course: [Introduction to Computer Science and Programming in Python (MIT &ndash; 6.001)](./courses/MIT_6.001)
 - Course: Introduction to Computational Thinking and Data Science
 
 ### Programming
 
 #### Introductory
 
-- Course: [Structure and Interpretation of Computer Programs (UC Berkeley CS 61AS)](./courses/Berkeley_CS61AS)
+- Course: [Structure and Interpretation of Computer Programs (UC Berkeley &ndash; CS 61AS)](./courses/Berkeley_CS61AS)
 
 #### Object-Oriented Programming
 
