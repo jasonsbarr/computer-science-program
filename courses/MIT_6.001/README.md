@@ -27,7 +27,7 @@ To provide students with an understanding of the role computation can play in so
 - Problem sets for each EdX week
 - Finger exercises for each lecture
 - Midterm (Due 9/2)
-- Final (Due 9/25
+- Final (Due 9/25)
 
 ## Schedule
 
