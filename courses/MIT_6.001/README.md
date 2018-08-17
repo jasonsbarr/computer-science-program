@@ -17,6 +17,7 @@ To provide students with an understanding of the role computation can play in so
 - [Alternative textbook - free](http://greenteapress.com/wp/think-python-2e/)
 - [Tutorials](https://plus.google.com/u/0/106151843486000968534)
 - [Harvard CS50](http://cs50.tv/2017/fall/)
+- [Crash Course Computer Science](https://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a)
 
 ## Time Frame
 
