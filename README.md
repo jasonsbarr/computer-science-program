@@ -162,7 +162,7 @@ I will be using a number of resources to create the curriculum:
 
 ### Web Development Specialization
 
-- Web Development Fundamentals
+- [Web Development Fundamentals](./courses/Web_Development_Fundamentals)
   - Modern JavaScript
   - HTML5
   - CSS3
