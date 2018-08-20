@@ -21,6 +21,7 @@ To teach about programming and software by mastering the techniques used for con
   - [PDF](http://web.mit.edu/alexmv/6.037/sicp.pdf)
   - [HTML](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
 - [1986 video lectures by SICP authors](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)
+- [_Simply Scheme_ - textbook for previous version of course](https://people.eecs.berkeley.edu/~bh/ss-toc2.html)
 
 ## Time Frame
 
