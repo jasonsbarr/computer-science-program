@@ -7,9 +7,9 @@ Date: 08/13/2018 &ndash; 11/11/2018
 ### Courses
 
 - Math Review (via [Khan Academy](https://khanacademy.org))
-  - Algebra
-  - Geometry
-  - Trigonometry
+  - [Algebra](https://www.khanacademy.org/math/algebra-home)
+  - [Geometry](https://www.khanacademy.org/math/geometry-home)
+  - [Trigonometry](https://www.khanacademy.org/math/trigonometry)
 - [CS 61AS: Structure and Interpretation of Computer Programs (Berkeley)](./Berkeley_CS61AS)
 - [Web Development Fundamentals (self-designed)](./courses/Web_Development_Fundamentals)
 - [6.001: Introduction to Computer Science and Programming (MIT)](./MIT_6.001)
