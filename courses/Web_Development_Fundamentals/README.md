@@ -50,10 +50,9 @@ I've already been doing web development in HTML, CSS, and JavaScript for several
 
 ## Schedule
 
-### Week 1: Git and First Website
+### Week 1: Git
 
 - Git Immersion
-- Build personal website
 - Start JavaScript30
 
 ### Week 2: Basic HTML and CSS
