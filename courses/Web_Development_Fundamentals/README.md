@@ -24,6 +24,7 @@ I've already been doing web development in HTML, CSS, and JavaScript for several
 ### HTML5 and Browser APIs
 
 - Course: [HTML5 Mastery—Build Superior Websites & Mobile Apps (Udemy)](https://www.udemy.com/html5-mastery-mobile-apps-websites/)
+- Book: _Pro HTML5_ - Part V, Advanced Applications
 - [Modern JavaScript Tutorial](http://javascript.info) - section on DOM scripting
 - Tutorial: [Mozilla Developers Network (MDN) - Accessibility on The Web](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
 - Book: [_Hands On with HTML APIs_](https://www.amazon.com/Hands-HTML-APIs-Harness-Power/dp/1521391378)
