@@ -21,19 +21,27 @@ I've already been doing web development in HTML, CSS, and JavaScript for several
 
 - Tutorial: [Modern JavaScript Tutorial](http://javascript.info) - sections on JavaScript Language, RegExp, and Asynchronous Programming
 
-### HTML5 and Browser APIs
+### JavaScript and the DOM
+
+- [Modern JavaScript Tutorial](http://javascript.info) - section on DOM scripting
+- Book: [_DOM Enlightenment_](http://domenlightenment.com/)
+
+### HTML5 and Browser APIs, with Accessibility
 
 - Course: [HTML5 Mastery—Build Superior Websites & Mobile Apps (Udemy)](https://www.udemy.com/html5-mastery-mobile-apps-websites/)
 - Book: _Pro HTML5_ - Part V, Advanced Applications
-- [Modern JavaScript Tutorial](http://javascript.info) - section on DOM scripting
 - Tutorial: [Mozilla Developers Network (MDN) - Accessibility on The Web](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
 - Book: [_Hands On with HTML APIs_](https://www.amazon.com/Hands-HTML-APIs-Harness-Power/dp/1521391378)
+- Tutorial: [TutorialsPoint Learn HTML5](https://www.tutorialspoint.com/html5/index.htm)
 
 ### CSS3
 - Book: [_CSS in Depth_](https://www.amazon.com/CSS-Depth-Keith-J-Grant/dp/1617293458)
 - Book: [_Flexbox for Responsive Web Design_](https://www.amazon.com/Flexbox-Responsive-Web-Design-websites-ebook/dp/B01IO2P3M0)
 - Book: [_The New CSS Layout_](https://www.amazon.com/New-CSS-Layout-Rachel-Andrew/dp/1937557685)
 - Book: [_Mastering CSS: A Guided Journey through Modern CSS_](https://www.amazon.com/dp/B071GNQ2VQ/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+
+### Sass/SCSS
+
 - Course: [The Complete Sass & SCSS Course: From Beginner to Advanced (Udemy)](https://www.udemy.com/sasscourse/)
 
 ## Time Frame
@@ -55,23 +63,40 @@ I've already been doing web development in HTML, CSS, and JavaScript for several
 - Git Immersion
 - Start JavaScript30
 
-### Week 2: Basic HTML and CSS
+### Week 2: Basic HTML
 
-- Work through _Pro HTML5 with CSS, JavaScript, and Multimedia_ - HTML and CSS
+- _Pro HTML5 with CSS, JavaScript, and Multimedia_ - HTML
 - Use How To Code HTML & CSS as supplement
+- Build a website to style next week
+
+### Week 3: Basic CSS
+
+- _Pro HTML5 with CSS, JavaScript, and Multimedia_ - CSS
+- How to Code HTML & CSS as supplement
 - Start 100 Days of CSS (finish by end of term)
-- Build another website
+- Style website built in Week 2
 
-### Weeks 3-4: JavaScript Fundamentals
+### Week 4: JavaScript Fundamentals
 
-- Work through Modern JavaScript Tutorial - JavaScript Language, Regular Expressions, and Async
-- Build another website
-- Build website that uses async programming to access and display information from an external API
+- Start Modern JavaScript Tutorial - JavaScript Language
+- Build website using HTML, CSS, and basic JavaScript
 
-### Weeks 5-8: HTML5 and Browser APIs
+### Week 5: More JavaScript Fundamentals
 
-- Work through all materials
-- Build an app each week that uses JavaScript to work with DOM, HTML5, and Browser APIs
+- Finish Modern JavaScript Tutorial - JavaScript Language
+- Do Modern JavaScript Tutorial - RegExp and Async
+- Build website that uses async programming to access and display information from an external API 
+
+### Week 6: JavaScript and the DOM
+
+- Do Modern JavaScript Tutorial - DOM
+- Use _DOM Enlightenment_ as supplement
+- Build website that uses JavaScript with DOM extensively and best practices for accessibility
+
+### Weeks 7-8: Using HTML5 and Browser APIs To Build Apps
+
+- Work through all relevant materials
+- Build an app each week that uses JavaScript with HTML5 and Browser APIs, with a proper app manifest file for each
 
 ### Weeks 9-12: CSS3
 
@@ -86,5 +111,5 @@ I've already been doing web development in HTML, CSS, and JavaScript for several
 - Build app using Sass and modern CSS workflow
   - Make it fully responsive
   - Use icons, app manifest, etc. for iOS and Android
-  - Use good JavaScript practices incl. functional and O-O programming
+  - Use good JavaScript practices incl. functional and O-O programming as studied so far
   - Use async programming to access and display data from external API
