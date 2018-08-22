@@ -35,7 +35,7 @@ I could probably go through all the material faster if I wanted, but my intent i
 
 I will not be getting a degree for this work, and I probably won't take many of the courses for certificates (if any). The knowledge and skills are the point, not a piece of paper at the end.
 
-I will also document my progress through each "term" in this repo to serve as a future resource for myself and anyone else who may be interested.
+I will also document my progress through each course on my website to serve as a future resource for myself and anyone else who may be interested.
 
 This will include the "ultralearning" method of essentially writing the textbook for each course as I take it, which should help me assimilate the material more quickly and thoroughly.
 
