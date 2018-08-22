@@ -81,7 +81,7 @@ I will be using a number of resources to create the curriculum:
 
 ### Computer Science Introduction
 
-- Course: [Introduction to Computer Science and Programming in Python (MIT &ndash; 6.0001)](./courses/MIT_6.001)
+- Course: [Introduction to Computer Science and Programming in Python (MIT &ndash; 6.0001)](./courses/MIT_6.0001)
 - Course: Introduction to Computational Thinking and Data Science (MIT &ndash; 6.0002)
 
 ### Programming
