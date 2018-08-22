@@ -35,18 +35,16 @@ I've already been doing web development in HTML, CSS, and JavaScript for several
 - Tutorial: [TutorialsPoint Learn HTML5](https://www.tutorialspoint.com/html5/index.htm)
 
 ### CSS3
+
 - Book: [_CSS in Depth_](https://www.amazon.com/CSS-Depth-Keith-J-Grant/dp/1617293458)
 - Book: [_Flexbox for Responsive Web Design_](https://www.amazon.com/Flexbox-Responsive-Web-Design-websites-ebook/dp/B01IO2P3M0)
 - Book: [_The New CSS Layout_](https://www.amazon.com/New-CSS-Layout-Rachel-Andrew/dp/1937557685)
 - Book: [_Mastering CSS: A Guided Journey through Modern CSS_](https://www.amazon.com/dp/B071GNQ2VQ/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 
-### Sass/SCSS
+### Sass/SCSS and Workflow
 
 - Course: [The Complete Sass & SCSS Course: From Beginner to Advanced (Udemy)](https://www.udemy.com/sasscourse/)
-
-## Time Frame
-
-8/13/2018 &ndash; 11/11/2018 (13 week full term)
+- Course: [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/)
 
 ## Requirements
 
@@ -56,58 +54,57 @@ I've already been doing web development in HTML, CSS, and JavaScript for several
 - Complete [100 Days of CSS](https://100dayscss.com/)
 - Build one additional website/app project per week
 
-## Schedule
+## Course Start
 
-### Week 1: Git
+Monday, 8/27/2018
+
+### Module 1: Git
 
 - Git Immersion
 - Start JavaScript30
 
-### Week 2: Basic HTML
+### Module 2: Basic HTML
 
 - _Pro HTML5 with CSS, JavaScript, and Multimedia_ - HTML
 - Use How To Code HTML & CSS as supplement
 - Build a website to style next week
 
-### Week 3: Basic CSS
+### Module 3: Basic CSS
 
 - _Pro HTML5 with CSS, JavaScript, and Multimedia_ - CSS
 - How to Code HTML & CSS as supplement
 - Start 100 Days of CSS (finish by end of term)
 - Style website built in Week 2
 
-### Week 4: JavaScript Fundamentals
+### Module 4: JavaScript Fundamentals
 
-- Start Modern JavaScript Tutorial - JavaScript Language
+- Do Modern JavaScript Tutorial - JavaScript Language
 - Build website using HTML, CSS, and basic JavaScript
-
-### Week 5: More JavaScript Fundamentals
-
-- Finish Modern JavaScript Tutorial - JavaScript Language
 - Do Modern JavaScript Tutorial - RegExp and Async
-- Build website that uses async programming to access and display information from an external API 
+- Build website that uses async programming to access and display information from an external API
 
-### Week 6: JavaScript and the DOM
+### Module 5: JavaScript and the DOM
 
 - Do Modern JavaScript Tutorial - DOM
 - Use _DOM Enlightenment_ as supplement
 - Build website that uses JavaScript with DOM extensively and best practices for accessibility
 
-### Weeks 7-8: Using HTML5 and Browser APIs To Build Apps
+### Module 6: Using HTML5 and Browser APIs To Build Apps
 
 - Work through all relevant materials
 - Build an app each week that uses JavaScript with HTML5 and Browser APIs, with a proper app manifest file for each
 
-### Weeks 9-12: CSS3
+### Module 7: CSS3
 
 - Work through all materials
 - Refactor existing websites/apps to use modern CSS techniques where applicable
 - Build a website/app each week that showcases everything studied so far
 - Make sure each app is fully responsive and uses icons, app manifest, etc.
 
-### Week 13: Sass
+### Module 8: Sass and Modern Front-End Workflow
 
 - Work through Sass course
+- Work through Git a Web Developer Job
 - Build app using Sass and modern CSS workflow
   - Make it fully responsive
   - Use icons, app manifest, etc. for iOS and Android

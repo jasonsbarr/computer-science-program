@@ -17,6 +17,7 @@
   - [Networking](#networking)
   - [Operating Systems](#operating-systems)
   - [Databases](#databases)
+  - [Machine Learning](#machine-learning)
   - [Specialization: Modern Web Development with Data Science Applications](#web-development-specialization)
   - [Capstone Project](#capstone-project)
 - [Resources](#resources)
@@ -51,11 +52,10 @@ I will be using a number of resources to create the curriculum:
 
 ## Methodology
 
-- Work on 4 courses at a time for 13 week "terms," completing all 4 within that time frame if possible.
-  - Courses shorter than a full-term can be grouped (some courses I'm using are actually designed to be grouped in this way)
-  - Longer courses may span more than one term; can group shorter courses with these in the last term to avoid time gaps
+- Work on 2 CS courses and one math/statistics/data science course at a time until finished.
+  - Focus will be on learning each course thoroughly, not necessarily on finishing the material in a particular time frame, but spending time on each course daily should accelerate the time frame over what's possible in a regular undergraduate program.
   - Working on multiple courses at once will leverage techniques to help with learning and retention, like spaced repetition and interleaving
-  - Making the courses time-bound will alleviate my anxiety and ADHD/executive functioning issues that make open-ended projects difficult
+  - Making the courses sequential with a defined structure will alleviate my anxiety and ADHD/executive functioning issues that make open-ended projects difficult
 - View all lectures for courses that have them available; otherwise use supplemental videos where appropriate
 - Complete all readings, including textbooks (may substitute equivalent openly available book for required course textbooks), lecture notes, handouts, etc.
 - Do all assignments, including projects, problem sets, presentations, and writing assignments
@@ -73,13 +73,16 @@ I will be using a number of resources to create the curriculum:
 
 ### Preparatory
 
-- Math Review: Algebra, Geometry, Trigonometry ([Khan Academy](https://khanacademy.org) and other resources)
+- Math Review: [Khan Academy](https://khanacademy.org) and other resources
+  - Algebra
+  - Geometry
+  - Trigonometry
 - Precalculus (EdX, UT Austin)
 
 ### Computer Science Introduction
 
-- Course: [Introduction to Computer Science and Programming in Python (MIT &ndash; 6.001)](./courses/MIT_6.001)
-- Course: Introduction to Computational Thinking and Data Science
+- Course: [Introduction to Computer Science and Programming in Python (MIT &ndash; 6.0001)](./courses/MIT_6.001)
+- Course: Introduction to Computational Thinking and Data Science (MIT &ndash; 6.0002)
 
 ### Programming
 
@@ -111,19 +114,19 @@ I will be using a number of resources to create the curriculum:
   - Course: Calculus 1C - Coordinate Systems & Infinite Series (EdX, MIT)
 - _Option 2_
   - Course: Single Variable Calculus (MIT 18.01)
-- Course: Multivariable Calculus (MIT 18.02)
+
+#### Math for CS
+
+- Course: Mathematics for Computer Science (MIT 6.042J)
 
 #### Statistics and Probability
 
 - Course: Fundamentals of Statistics (EdX, MIT)
 - Course: Introduction to Probability (EdX, MIT)
 
-#### Math for CS
+#### Advanced Math
 
-- Course: Mathematics for Computer Science (MIT 6.042J)
-
-#### Linear Algebra
-
+- Course: Multivariable Calculus (MIT 18.02)
 - Course: Linear Algebra (MIT 18.06)
 
 ### Data Structures/Algorithms
@@ -160,6 +163,10 @@ I will be using a number of resources to create the curriculum:
 
 - Course: Introduction to Database Systems (Berkeley CS 186)
 
+### Machine Learning
+
+- Course: Machine Learning (Stanford CS 229)
+
 ### Web Development Specialization
 
 - [Web Development Fundamentals](./courses/Web_Development_Fundamentals)
@@ -193,7 +200,7 @@ Build and deploy a large scale (e.g. could be an early version of an enterprise 
 - User authentication
 - Admin panel
 - Data science/machine learning component
-- Access to at least one external API 
+- Access to at least one external API
 
 App must feature good UX principles, a well-planned application architecture, performance optimization, reasonably secure code, and be built using test or behavior-driven principles.
 
@@ -233,12 +240,13 @@ Node should be the application backend and the data processing/machine learning 
 - Python Interview Prep: https://www.hackerrank.com/chingu-challenge-3
 - JavaScript Interview Prep: https://www.hackerrank.com/chingu-challenge-9-javascript-prep
 - https://www.hackerrank.com/interview/interview-preparation-kit
+- https://exercism.io
 
 ## Legal
 
 ### Disclaimer
 
-Obviously the copyright for the books, course materials, etc. do not belong to me. 
+Obviously the copyright for the books, course materials, etc. do not belong to me.
 
 I believe I am making use of them in ways that are consistent with the publishers' intentions and that are appropriate under fair use doctrine, but if you are a copyright owner of anything I'm using in this project and you have issues with how I'm using your material please contact me so we can resolve it.
 

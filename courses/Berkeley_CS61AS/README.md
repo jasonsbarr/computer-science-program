@@ -23,9 +23,9 @@ To teach about programming and software by mastering the techniques used for con
 - [1986 video lectures by SICP authors](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)
 - [_Simply Scheme_ - textbook for previous version of course](https://people.eecs.berkeley.edu/~bh/ss-toc2.html)
 
-## Time Frame
+## Course Started
 
-8/15/2018 &ndash; 11/11/2018 (13 week full term)
+Monday, 8/27/2018
 
 ## Requirements
 
@@ -37,7 +37,7 @@ To teach about programming and software by mastering the techniques used for con
 
 ## Schedule
 
-### Session 0.1, 8/15/2018 &ndash; Introduction to Racket and CS61AS
+### Session 0.1 &ndash; Introduction to Racket and CS61AS
 
 - First Day Instructions
 - Lesson 0.1 Intro
@@ -47,7 +47,7 @@ To teach about programming and software by mastering the techniques used for con
 - Alternatives to CS 61AS
 - Homework 0.1
 
-### Session 0.2, 8/20/2018 &ndash; More Practice with Racket
+### Session 0.2 &ndash; More Practice with Racket
 
 - Lesson 0.2 Intro
 - Expressions and Evaluation
@@ -57,7 +57,7 @@ To teach about programming and software by mastering the techniques used for con
 - Special Forms
 - Homework 0.2
 
-### Session 0.3, 8/22/2018 &ndash; Recursion and Racket
+### Session 0.3 &ndash; Recursion and Racket
 
 - Lesson 0.3 Intro
 - What is Recursion
@@ -65,7 +65,7 @@ To teach about programming and software by mastering the techniques used for con
 - Common Recursive Patterns
 - Homework 0.3
 
-### Session 1, 8/27/2018 &ndash; Functions and Primitive Data
+### Session 1 &ndash; Functions and Primitive Data
 
 - Lesson 1 Intro
 - Expressions
@@ -78,7 +78,7 @@ To teach about programming and software by mastering the techniques used for con
 - Common Errors
 - Homework 1
 
-### Session 2, 8/29/2018 &ndash; Lambdas and Higher Order Functions
+### Session 2 &ndash; Lambdas and Higher Order Functions
 
 - Lesson 2 Intro
 - Constructing Procedures Using Lambda
@@ -88,11 +88,11 @@ To teach about programming and software by mastering the techniques used for con
 - Applied HOFs
 - Homework 2
 
-### Project 1, 9/3/2018 &ndash; Chatterbot
+### Project 1 &ndash; Chatterbot
 
 - Chatterbot
 
-### Session 3, 9/5/2018 &ndash; Recursion, Iteration, Efficiency
+### Session 3 &ndash; Recursion, Iteration, Efficiency
 
 - Lesson 3 Intro
 - Space
@@ -100,7 +100,8 @@ To teach about programming and software by mastering the techniques used for con
 - Tree Recursion
 - Homework 3
 
-### Session 4, 9/10/2018 &ndash; Data Abstraction and Sequences
+### Session 4 &ndash; Data Abstraction and Sequences
+
 - Lesson 4 Intro
 - Representing Sequences
 - List Operators and HOFs
@@ -109,11 +110,11 @@ To teach about programming and software by mastering the techniques used for con
 - Violating Data Abstraction
 - Homework 4
 
-### Project 2, 9/12/2018 &ndash; Turtle Graphics
+### Project 2 &ndash; Turtle Graphics
 
 - Turtle graphics
 
-### Session 5, 9/17/2018 &ndash; Hierarchical Data and calc.scm
+### Session 5 &ndash; Hierarchical Data and calc.scm
 
 - Lesson 5 Intro
 - Building Hierarchy
@@ -126,7 +127,7 @@ To teach about programming and software by mastering the techniques used for con
 - calc.rkt
 - Homework 5
 
-### Session 6, 9/19/2018 &ndash; racket1.rkt and Generic Operators
+### Session 6 &ndash; racket1.rkt and Generic Operators
 
 - Lesson 6 Intro
 - Tagged Data
@@ -135,7 +136,7 @@ To teach about programming and software by mastering the techniques used for con
 - Racket-1
 - Homework 6
 
-### Session 7, 9/24/2018 &ndash; Object Oriented Programming
+### Session 7 &ndash; Object Oriented Programming
 
 - Lesson 7 Intro
 - Local States
@@ -147,7 +148,7 @@ To teach about programming and software by mastering the techniques used for con
 - Multiple Superclasses
 - Homework 7
 
-### Session 8, 9/26/2018 &ndash; Assignment, State, - and Environment
+### Session 8 &ndash; Assignment, State, - and Environment
 - Lesson 8 Intro
 - Local State Variables
 - The Environment Model of Evaluation
@@ -155,7 +156,7 @@ To teach about programming and software by mastering the techniques used for con
 - OOP Below the Line
 - Homework 8
 
-### Project 3, 10/1/2018 &ndash; Adventure Game
+### Project 3 &ndash; Adventure Game
 
 - Introduction
 - Getting Started
@@ -169,7 +170,7 @@ To teach about programming and software by mastering the techniques used for con
 - Final Exercises for Both Partners
 - Submitting Your Project
 
-### Session 9, 10/3/2018 &ndash; Mutable Data and Vectors
+### Session 9 &ndash; Mutable Data and Vectors
 
 - Lesson 9 Intro
 - Mutable List Structure
@@ -178,7 +179,7 @@ To teach about programming and software by mastering the techniques used for con
 - Vectors
 - Homework 9
 
-### Session 10, 10/8/2018 &ndash; Streams
+### Session 10 &ndash; Streams
 
 - Lesson 10 Intro
 - Streams Are Delayed Lists
@@ -188,12 +189,7 @@ To teach about programming and software by mastering the techniques used for con
 - Example - Infinite Streams of Pairs
 - Homework 10
 
-### Practice 1, 10/10/2018 &ndash; Practice/Reading Day
-
-- Work on problems
-- Read supplemental materials
-
-### Session 11, 8/15/2018 &ndash; Metacircular Evaluator
+### Session 11 &ndash; Metacircular Evaluator
 
 - Lesson 11 Intro
 - Eval
@@ -202,11 +198,11 @@ To teach about programming and software by mastering the techniques used for con
 - Python Interpreter
 - Homework 11
 
-### Project 4, 10/17/2018 &ndash; Python Interpreter
+### Project 4 &ndash; Python Interpreter
 
 - Schython
 
-### Session 12, 10/22/2018 &ndash; Analyzing Evaluator and Lazy Evaluator
+### Session 12 &ndash; Analyzing Evaluator and Lazy Evaluator
 
 - Lesson 12 Intro
 - Separating Analysis from Execution
@@ -215,7 +211,7 @@ To teach about programming and software by mastering the techniques used for con
 - Streams as Lazy Lists
 - Homework 12
 
-### Python Session, 10/24/2018 &ndash; Intro, Memoization, Lazy
+### Python Session &ndash; Intro, Memoization, Lazy
 
 - Mini Python Intro
 - Basic Data Types
@@ -225,7 +221,7 @@ To teach about programming and software by mastering the techniques used for con
 - Lazy Evaluation and Generators
 - Python Homework
 
-### Session 13, 10/29/2018 &ndash; Logic Programming
+### Session 13 &ndash; Logic Programming
 
 - Lesson 13 Intro
 - What is Logic Programming
@@ -234,11 +230,7 @@ To teach about programming and software by mastering the techniques used for con
 - Implementing the Query System
 - Homework 13
 
-### Practice 2, 10/31/2018 &ndash; Practice/Reading Day
-
-- Happy Halloween! 🎃🎃🎃
-
-### Session 14, 11/5/2018 &ndash; Concurrency and MapReduce
+### Session 14 &ndash; Concurrency and MapReduce
 
 - Lesson 14 Intro
 - Parallelism
@@ -247,7 +239,3 @@ To teach about programming and software by mastering the techniques used for con
 - Mutex
 - Mapreduce
 - Homework 14
-
-### Practice 3, 8/15/2018 &ndash; Practice/Reading Day
-
-- Study for final

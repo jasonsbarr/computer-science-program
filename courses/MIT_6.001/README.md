@@ -19,20 +19,16 @@ To provide students with an understanding of the role computation can play in so
 - [Harvard CS50](http://cs50.tv/2017/fall/)
 - [Crash Course Computer Science](https://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a)
 
-## Time Frame
-
-8/14/2018 - 9/25/2018 (6.5 week half term)
-
 ## Requirements
 
 - Problem sets for each EdX week
 - Finger exercises for each lecture
-- Midterm (Due 9/2)
-- Final (Due 9/25)
+- Midterm
+- Final
 
 ## Schedule
 
-### Session 1, 8/14 &ndash; Introduction to Python
+### Lesson 1 &ndash; Introduction to Python
 
 - Knowledge
 - Machines
@@ -41,7 +37,7 @@ To provide students with an understanding of the role computation can play in so
 - Variables
 - Operators and Branching
 
-### Session 2, 8/16 &ndash; Core elements of programs
+### Lesson 2 &ndash; Core elements of programs
 
 - Bindings
 - Strings
@@ -51,14 +47,14 @@ To provide students with an understanding of the role computation can play in so
 - Iteration
 - Guess and Check
 
-### Session 3, 8/21 &ndash; Simple Programs
+### Lesson 3 &ndash; Simple Programs
 
 - Approximate Solutions
 - Bisection Search
 - Floats and Fractions
 - Newton-Raphson
 
-### Session 4, 8/23 &ndash; Lecture 4 – Functions
+### Lesson 4 &ndash; Lecture 4 – Functions
 
 - Decomposition and Abstraction
 - Functions and Scope
@@ -71,14 +67,14 @@ To provide students with an understanding of the role computation can play in so
 - Recursion on non-numerics
 - Files
 
-### Session 5, 8/28 &ndash;  Lecture 5 – Tuples and Lists
+### Lesson 5 &ndash;  Lecture 5 – Tuples and Lists
 
 - Tuples
 - Lists
 - List Operations
 - Mutation, Aliasing, Cloning
 
-### Session 6, 8/30 &ndash; Dictionaries
+### Lesson 6 &ndash; Dictionaries
 
 - Functions as Objects
 - Dictionaries
@@ -86,7 +82,7 @@ To provide students with an understanding of the role computation can play in so
 - Fibonacci and Dictionaries
 - Global Variables
 
-### Session 7, 9/4 &ndash; Debugging
+### Lesson 7 &ndash; Debugging
 
 - Testing and Debugging
   - Programming Challenges
@@ -99,7 +95,7 @@ To provide students with an understanding of the role computation can play in so
   - Exceptions
   - Exception Examples
 
-### Session 8, 9/6 &ndash; Classes and Inheritance
+### Lesson 8 &ndash; Classes and Inheritance
 
 - Object Oriented Programming
 - Class Instances
@@ -109,7 +105,7 @@ To provide students with an understanding of the role computation can play in so
 - Hierarchies
 - Your Own Types
 
-### Session 9, 9/11 &ndash; Extended Example of OOP
+### Lesson 9 &ndash; Extended Example of OOP
 
 - Building a Class
 - Visualizing the Hierarchy
@@ -118,14 +114,14 @@ To provide students with an understanding of the role computation can play in so
 - Gradebook Example
 - Generators
 
-### Session 10, 9/13 &ndash; Computational Complexity
+### Lesson 10 &ndash; Computational Complexity
 
 - Program Efficiency
 - Big Oh Notation
 - Complexity Classes
 - Analyzing Complexity
 
-### Session 11, 9/18 &ndash; Searching and Sorting Algorithms
+### Lesson 11 &ndash; Searching and Sorting Algorithms
 
 - Indirection
 - Linear Search
@@ -134,7 +130,7 @@ To provide students with an understanding of the role computation can play in so
 - Selection Sort
 - Merge Sort
 
-### Session 12, 9/20 &ndash; Visualization of Data
+### Lesson 12 &ndash; Visualization of Data
 
 - Visualizing Results
 - Overlapping Displays
