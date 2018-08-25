@@ -44,6 +44,7 @@ I've already been doing web development in HTML, CSS, and JavaScript for several
 ### Sass/SCSS and Workflow
 
 - Course: [The Complete Sass & SCSS Course: From Beginner to Advanced (Udemy)](https://www.udemy.com/sasscourse/)
+- Tutorial: [Getting Sassy with CSS](http://www.sassshop.com/#/)
 - Course: [Git a Web Developer Job: Mastering the Modern Workflow](https://www.udemy.com/git-a-web-developer-job-mastering-the-modern-workflow/)
 
 ## Requirements
@@ -61,7 +62,6 @@ Monday, 8/27/2018
 ### Module 1: Git
 
 - Git Immersion
-- Start JavaScript30
 
 ### Module 2: Basic HTML
 
@@ -73,7 +73,7 @@ Monday, 8/27/2018
 
 - _Pro HTML5 with CSS, JavaScript, and Multimedia_ - CSS
 - How to Code HTML & CSS as supplement
-- Start 100 Days of CSS (finish by end of term)
+- Start 100 Days of CSS (finish by end of course)
 - Style website built in Week 2
 
 ### Module 4: JavaScript Fundamentals
@@ -82,24 +82,26 @@ Monday, 8/27/2018
 - Build website using HTML, CSS, and basic JavaScript
 - Do Modern JavaScript Tutorial - RegExp and Async
 - Build website that uses async programming to access and display information from an external API
+- Start JavaScript30
 
 ### Module 5: JavaScript and the DOM
 
 - Do Modern JavaScript Tutorial - DOM
 - Use _DOM Enlightenment_ as supplement
-- Build website that uses JavaScript with DOM extensively and best practices for accessibility
+- Add JavaScript and DOM manipulation to website from week 1
+- Build new website that uses JavaScript with DOM extensively and best practices for accessibility
 
 ### Module 6: Using HTML5 and Browser APIs To Build Apps
 
 - Work through all relevant materials
-- Build an app each week that uses JavaScript with HTML5 and Browser APIs, with a proper app manifest file for each
+- Build an app using JavaScript for each HTML5 and Browser API studied
 
 ### Module 7: CSS3
 
 - Work through all materials
 - Refactor existing websites/apps to use modern CSS techniques where applicable
-- Build a website/app each week that showcases everything studied so far
-- Make sure each app is fully responsive and uses icons, app manifest, etc.
+- Build a new website/app that showcases everything studied so far
+- Make sure app is fully responsive and uses icons, app manifest, etc.
 
 ### Module 8: Sass and Modern Front-End Workflow
 
