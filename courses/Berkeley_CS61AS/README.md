@@ -23,7 +23,7 @@ To teach about programming and software by mastering the techniques used for con
 - [1986 video lectures by SICP authors](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)
 - [_Simply Scheme_ - textbook for previous version of course](https://people.eecs.berkeley.edu/~bh/ss-toc2.html)
 
-## Course Started
+## Course Starts
 
 Monday, 8/27/2018
 
@@ -33,11 +33,16 @@ Monday, 8/27/2018
 - Problem sets for every lesson (use autograder)
 - 4 projects
 - All practice quizzes
-- Practice final exam (Due by 11/11)
+- Practice final exam
 
 ## Schedule
 
-### Session 0.1 &ndash; Introduction to Racket and CS61AS
+### Prework &ndash; To Complete before Beginning Lesson 1
+
+- [_Simply Scheme: Introducing Computer Science (2nd ed.)_](https://people.eecs.berkeley.edu/~bh/ss-toc2.html)
+- [_How To Design Programs_](https://htdp.org/)
+
+### Lesson 0.1 &ndash; Introduction to Racket and CS61AS
 
 - First Day Instructions
 - Lesson 0.1 Intro
@@ -47,7 +52,7 @@ Monday, 8/27/2018
 - Alternatives to CS 61AS
 - Homework 0.1
 
-### Session 0.2 &ndash; More Practice with Racket
+### Lesson 0.2 &ndash; More Practice with Racket
 
 - Lesson 0.2 Intro
 - Expressions and Evaluation
@@ -57,7 +62,7 @@ Monday, 8/27/2018
 - Special Forms
 - Homework 0.2
 
-### Session 0.3 &ndash; Recursion and Racket
+### Lesson 0.3 &ndash; Recursion and Racket
 
 - Lesson 0.3 Intro
 - What is Recursion
@@ -65,7 +70,7 @@ Monday, 8/27/2018
 - Common Recursive Patterns
 - Homework 0.3
 
-### Session 1 &ndash; Functions and Primitive Data
+### Lesson 1 &ndash; Functions and Primitive Data
 
 - Lesson 1 Intro
 - Expressions
@@ -78,7 +83,7 @@ Monday, 8/27/2018
 - Common Errors
 - Homework 1
 
-### Session 2 &ndash; Lambdas and Higher Order Functions
+### Lesson 2 &ndash; Lambdas and Higher Order Functions
 
 - Lesson 2 Intro
 - Constructing Procedures Using Lambda
@@ -92,7 +97,7 @@ Monday, 8/27/2018
 
 - Chatterbot
 
-### Session 3 &ndash; Recursion, Iteration, Efficiency
+### Lesson 3 &ndash; Recursion, Iteration, Efficiency
 
 - Lesson 3 Intro
 - Space
@@ -100,7 +105,7 @@ Monday, 8/27/2018
 - Tree Recursion
 - Homework 3
 
-### Session 4 &ndash; Data Abstraction and Sequences
+### Lesson 4 &ndash; Data Abstraction and Sequences
 
 - Lesson 4 Intro
 - Representing Sequences
@@ -114,7 +119,7 @@ Monday, 8/27/2018
 
 - Turtle graphics
 
-### Session 5 &ndash; Hierarchical Data and calc.scm
+### Lesson 5 &ndash; Hierarchical Data and calc.scm
 
 - Lesson 5 Intro
 - Building Hierarchy
@@ -127,7 +132,7 @@ Monday, 8/27/2018
 - calc.rkt
 - Homework 5
 
-### Session 6 &ndash; racket1.rkt and Generic Operators
+### Lesson 6 &ndash; racket1.rkt and Generic Operators
 
 - Lesson 6 Intro
 - Tagged Data
@@ -136,7 +141,7 @@ Monday, 8/27/2018
 - Racket-1
 - Homework 6
 
-### Session 7 &ndash; Object Oriented Programming
+### Lesson 7 &ndash; Object Oriented Programming
 
 - Lesson 7 Intro
 - Local States
@@ -148,7 +153,8 @@ Monday, 8/27/2018
 - Multiple Superclasses
 - Homework 7
 
-### Session 8 &ndash; Assignment, State, - and Environment
+### Lesson 8 &ndash; Assignment, State, and Environment
+
 - Lesson 8 Intro
 - Local State Variables
 - The Environment Model of Evaluation
@@ -170,7 +176,7 @@ Monday, 8/27/2018
 - Final Exercises for Both Partners
 - Submitting Your Project
 
-### Session 9 &ndash; Mutable Data and Vectors
+### Lesson 9 &ndash; Mutable Data and Vectors
 
 - Lesson 9 Intro
 - Mutable List Structure
@@ -179,7 +185,7 @@ Monday, 8/27/2018
 - Vectors
 - Homework 9
 
-### Session 10 &ndash; Streams
+### Lesson 10 &ndash; Streams
 
 - Lesson 10 Intro
 - Streams Are Delayed Lists
@@ -189,7 +195,7 @@ Monday, 8/27/2018
 - Example - Infinite Streams of Pairs
 - Homework 10
 
-### Session 11 &ndash; Metacircular Evaluator
+### Lesson 11 &ndash; Metacircular Evaluator
 
 - Lesson 11 Intro
 - Eval
@@ -202,7 +208,7 @@ Monday, 8/27/2018
 
 - Schython
 
-### Session 12 &ndash; Analyzing Evaluator and Lazy Evaluator
+### Lesson 12 &ndash; Analyzing Evaluator and Lazy Evaluator
 
 - Lesson 12 Intro
 - Separating Analysis from Execution
@@ -211,7 +217,7 @@ Monday, 8/27/2018
 - Streams as Lazy Lists
 - Homework 12
 
-### Python Session &ndash; Intro, Memoization, Lazy
+### Python Lesson &ndash; Intro, Memoization, Lazy
 
 - Mini Python Intro
 - Basic Data Types
@@ -221,7 +227,7 @@ Monday, 8/27/2018
 - Lazy Evaluation and Generators
 - Python Homework
 
-### Session 13 &ndash; Logic Programming
+### Lesson 13 &ndash; Logic Programming
 
 - Lesson 13 Intro
 - What is Logic Programming
@@ -230,7 +236,7 @@ Monday, 8/27/2018
 - Implementing the Query System
 - Homework 13
 
-### Session 14 &ndash; Concurrency and MapReduce
+### Lesson 14 &ndash; Concurrency and MapReduce
 
 - Lesson 14 Intro
 - Parallelism
