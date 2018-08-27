@@ -37,8 +37,6 @@ I've already been doing web development in HTML, CSS, and JavaScript for several
 ### CSS3
 
 - Book: [_CSS in Depth_](https://www.amazon.com/CSS-Depth-Keith-J-Grant/dp/1617293458)
-- Book: [_Flexbox for Responsive Web Design_](https://www.amazon.com/Flexbox-Responsive-Web-Design-websites-ebook/dp/B01IO2P3M0)
-- Book: [_The New CSS Layout_](https://www.amazon.com/New-CSS-Layout-Rachel-Andrew/dp/1937557685)
 - Book: [_Mastering CSS: A Guided Journey through Modern CSS_](https://www.amazon.com/dp/B071GNQ2VQ/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 
 ### Sass/SCSS and Workflow

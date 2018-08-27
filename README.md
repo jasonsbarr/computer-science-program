@@ -173,6 +173,10 @@ I will be using a number of resources to create the curriculum:
   - Modern JavaScript
   - HTML5
   - CSS3
+- Responsive Web Development
+  - Basic ideas and techniques
+  - jQuery
+  - Bootstrap
 - Advanced JavaScript
 - JavaScript and Computer Science Fundamentals
   - Data Structures and Algorithms
