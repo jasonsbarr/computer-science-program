@@ -177,8 +177,8 @@ I will be using a number of resources to create the curriculum:
   - Basic ideas and techniques
   - jQuery
   - Bootstrap
-- Advanced JavaScript
-- JavaScript and Computer Science Fundamentals
+- Intermediate JavaScript Fundamentals and ES2015+
+- JavaScript and Computer Science
   - Data Structures and Algorithms
   - Functional Programming
   - Object-Oriented Programming
@@ -186,16 +186,18 @@ I will be using a number of resources to create the curriculum:
   - UX
   - JavaScript Design Patterns
   - Application Development
-- Advanced Applications: Testing, Security, and Performance
 - Backend Web Development: Node, Express, and Databases
 - UI and Full Stack Development with React
+- Modern Workflow, Tools, Server/Cloud Administration, and DevOps with CI/CD
 - Progressive Web Apps
+- Advanced JavaScript
+- Reactive JavaScript Programming
+- Advanced Applications: Testing, Security, and Performance
 - Python and Django Web Development
 - Python for Data Science
 - Probability and Statistics Using Python
 - Machine Learning with Python
 - Data Visualization and Machine Learning for the Web
-- Modern Workflow, Tools, Server/Cloud Administration, and DevOps with CI/CD
 
 ### Capstone Project
 
