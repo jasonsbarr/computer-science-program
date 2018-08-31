@@ -30,6 +30,7 @@ I've already been doing web development in HTML, CSS, and JavaScript for several
 
 - Course: [HTML5 Mastery—Build Superior Websites & Mobile Apps (Udemy)](https://www.udemy.com/html5-mastery-mobile-apps-websites/)
 - Book: _Pro HTML5_ - Part V, Advanced Applications
+- Book: [_HTML5 Programmer's Reference_](https://www.amazon.com/HTML5-Programmers-Reference-Jonathan-Reid/dp/1430263679)
 - Tutorial: [Mozilla Developers Network (MDN) - Accessibility on The Web](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
 - Book: [_Hands On with HTML APIs_](https://www.amazon.com/Hands-HTML-APIs-Harness-Power/dp/1521391378)
 - Tutorial: [TutorialsPoint Learn HTML5](https://www.tutorialspoint.com/html5/index.htm)
@@ -51,7 +52,7 @@ I've already been doing web development in HTML, CSS, and JavaScript for several
 - Work through all exercises/projects/practice
 - Complete [JavaScript30](https://javascript30.com)
 - Complete [100 Days of CSS](https://100dayscss.com/)
-- Build one additional website/app project per week
+- Build websites/apps as described below
 
 ## Course Start
 
@@ -65,14 +66,14 @@ Monday, 8/27/2018
 
 - _Pro HTML5 with CSS, JavaScript, and Multimedia_ - HTML
 - Use How To Code HTML & CSS as supplement
-- Build a website to style next week
+- Design, build, and deploy personal website with blog
 
 ### Module 3: Basic CSS
 
 - _Pro HTML5 with CSS, JavaScript, and Multimedia_ - CSS
 - How to Code HTML & CSS as supplement
 - Start 100 Days of CSS (finish by end of course)
-- Style website built in Week 2
+- Expand website with a dedicated landing page to use as homepage
 
 ### Module 4: JavaScript Fundamentals
 
@@ -81,18 +82,26 @@ Monday, 8/27/2018
 - Do Modern JavaScript Tutorial - RegExp and Async
 - Build website that uses async programming to access and display information from an external API
 - Start JavaScript30
+- Expand website with another static content section
 
 ### Module 5: JavaScript and the DOM
 
 - Do Modern JavaScript Tutorial - DOM
 - Use _DOM Enlightenment_ as supplement
-- Add JavaScript and DOM manipulation to website from week 1
-- Build new website that uses JavaScript with DOM extensively and best practices for accessibility
+- Build another website that accesses and displays information from an external API
 
 ### Module 6: Using HTML5 and Browser APIs To Build Apps
 
 - Work through all relevant materials
-- Build an app using JavaScript for each HTML5 and Browser API studied
+- Build a project for each of the following browser or HTML5 APIs (separately or combined)
+  - Server-sent events
+  - Websockets
+  - Cross-domain/Web messaging
+  - Web storage
+  - IndexedDB
+  - Drag and Drop
+  - Web Workers
+  - Geolocation
 
 ### Module 7: CSS3
 
@@ -110,3 +119,4 @@ Monday, 8/27/2018
   - Use icons, app manifest, etc. for iOS and Android
   - Use good JavaScript practices incl. functional and O-O programming as studied so far
   - Use async programming to access and display data from external API
+- Expand personal website with Portfolio section to add apps from this course
