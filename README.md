@@ -189,10 +189,10 @@ I will be using a number of resources to create the curriculum:
 - Backend Web Development: Node, Express, and Databases
 - UI and Full Stack Development with React
 - Modern Workflow, Tools, Server/Cloud Administration, and DevOps with CI/CD
-- Progressive Web Apps
 - Advanced JavaScript
 - Reactive JavaScript Programming
 - Advanced Applications: Testing, Security, and Performance
+- Progressive Web Apps
 - Python and Django Web Development
 - Python for Data Science
 - Probability and Statistics Using Python

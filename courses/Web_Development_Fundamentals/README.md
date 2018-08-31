@@ -66,14 +66,14 @@ Monday, 8/27/2018
 
 - _Pro HTML5 with CSS, JavaScript, and Multimedia_ - HTML
 - Use How To Code HTML & CSS as supplement
-- Design, build, and deploy personal website with blog
+- Design, build, and deploy blog as personal website
 
 ### Module 3: Basic CSS
 
 - _Pro HTML5 with CSS, JavaScript, and Multimedia_ - CSS
 - How to Code HTML & CSS as supplement
 - Start 100 Days of CSS (finish by end of course)
-- Expand website with a dedicated landing page to use as homepage
+- Expand website with a dedicated landing page to use as homepage and an about/biography page
 
 ### Module 4: JavaScript Fundamentals
 
@@ -100,8 +100,10 @@ Monday, 8/27/2018
   - Web storage
   - IndexedDB
   - Drag and Drop
+  - History
   - Web Workers
   - Geolocation
+  - Service Workers
 
 ### Module 7: CSS3
 
@@ -109,6 +111,7 @@ Monday, 8/27/2018
 - Refactor existing websites/apps to use modern CSS techniques where applicable
 - Build a new website/app that showcases everything studied so far
 - Make sure app is fully responsive and uses icons, app manifest, etc.
+- Make full app functionality available offline with storage, service workers, etc.
 
 ### Module 8: Sass and Modern Front-End Workflow
 
