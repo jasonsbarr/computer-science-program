@@ -1,0 +1,779 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<title>Tuples | Lecture 5 | In-Class Questions and Video Solutions | Introduction to Computer Science and Programming in Python | Electrical Engineering and Computer Science | MIT OpenCourseWare</title>
+<!-- Begin Automatic Metadata Insertion --><meta content="6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016" name="WT.cg_n">
+<meta content="Tuples" name="WT.cg_s">
+<meta content="This in-class question demonstrates tuples in Python, including the difference between tuples and strings." name="Description">
+<meta content="Bell, Ana" name="Author">
+<meta content="Grimson, Eric" name="Author">
+<meta content="Guttag, John" name="Author">
+<meta content="6.0001,Python,tuple,Computer Science,Algorithms and Data Structures,Programming Languages" name="keywords">
+<meta content="6.0001 Introduction to Computer Science and Programming in Python | Tuples" name="Search_Display">
+<meta content="Computer Science" itemprop="about">
+<meta content="Algorithms and Data Structures" itemprop="about">
+<meta content="Programming Languages" itemprop="about">
+<!-- End Automatic Metadata Insertion --><link title="default" rel="stylesheet" type="text/css" href="../../../../common/styles/grid.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../common/styles/base.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../common/styles/menu.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../common/styles/jquery.bubblepopup.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../common/styles/search.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../common/styles/courses.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../common/styles/courses_new.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../common/styles/jquery.jscrollpane.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../../../common/styles/media_tabs.css">
+<link href="https://ocw.mit.edu/xml/ocwcc.rdf" type="application/rdf+xml" rel="metadata">
+<link rel="canonical" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/in-class-questions-and-video-solutions/lecture-5/tuples/">
+<link rel="apple-touch-icon" href="../../../../common/images/apple-touch-icon.png">
+<script type="text/javascript" src="../../../../common/scripts/jquery.js"></script><script type="text/javascript" src="../../../../common/scripts/ocw-media-utils-offline.js"></script><script type="text/javascript" src="../../../../common/scripts/ocw-offline.js"></script><script type="text/javascript" src="../../../../common/scripts/jquery.bubblepopup.min.js"></script><script type="text/javascript" src="../../../../common/scripts/jquery-ui.min.js"></script><script type="text/javascript" src="../../../../common/scripts/jquery.jscrollpane.min.js"></script><script type="text/javascript" src="../../../../common/scripts/expandy.js"></script><script type="text/javascript" src="../../../../common/scripts/bubble-popup-offline.js"></script><script type="text/javascript">
+      $(document).ready(function() {
+        $("#tabs").tabs();
+        IpadScroller();
+      });
+    </script>
+</head>
+<body>
+<div id="fbQuote" name="fbQuote">
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId            : '549343822066688',
+              autoLogAppEvents : true,
+              xfbml            : true,
+              version          : 'v2.11'
+            });
+	        FB.AppEvents.logEvent('Share',1);
+          };
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/en_US/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
+</div>
+
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+    
+        
+	
+
+        <header id="top"><div id="grid">
+				
+				
+					
+<div id="portletwrapper-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d686561646572" class="portletWrapper kssattr-portlethash-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d686561646572">
+<div class="portletStaticText portlet-static-site-header">
+<!--googleoff: index-->
+<div class="grid_6 alpha" id="banner"><a href="https://ocw.mit.edu/"><img src="../../../../common/images/ocw_mast.png" class="logo" alt="MIT OpenCourseWare, Massachusetts Institute of Technology"></a></div>
+<div class="grid_6 omega" id="subscribe">
+<aside class="module" aria-label="Connect with OCW"><table class="social"><tbody><tr>
+<td class="socialbutton"><a aria-label="Subscribe to the OCW Newsletter" href="https://ocw.mit.edu/subscribe/index.htm?utm_source=header"><img src="../../../../common/images/trans.gif" alt="An icon depicting an envelope.">Subscribe to the OCW Newsletter</a></td>
+            <td>
+<a aria-label="Facebook" href="https://facebook.com/mitocw"><img src="../../../../common/images/icon_fb.png" alt="Click to visit our Facebook page."></a>   <a aria-label="Twitter" href="https://twitter.com/mitocw"><img src="https://ocw.mit.edu/images/icon_twitter.png" alt="Click to visit our Twitter feed."></a>   <a aria-label="YouTube" href="https://www.youtube.com/mitocw"><img src="https://ocw.mit.edu/images/icon_yt.png" alt="Click to visit our YouTube page."></a>   <a aria-label="Open Matters blog on WordPress" href="https://mitopencourseware.wordpress.com/"><img src="https://ocw.mit.edu/images/icon_wp.png" alt="Click to visit our blog on WordPress."></a>
+</td>
+        </tr></tbody></table></aside><nav aria-label="Help Links" class="helplinks"><a aria-label="OCW Site Help" href="https://ocw.mit.edu/help">Help</a><span aria-hidden="true">|</span>     <a href="../../../../common/jsp/feedback.htm">Contact Us</a>   </nav>
+</div>
+<div class="clear"> </div>
+<!--googleon: index-->
+</div>
+
+</div>
+
+<div id="portletwrapper-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a6d6567612d6d656e75" class="portletWrapper kssattr-portlethash-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a6d6567612d6d656e75">
+<div class="portletStaticText portlet-static-mega-menu"><div><nav id="mega" class="grid_8 alpha" aria-label="Site"><ul id="menu" role="presentation">
+<li id="menu_home">
+<a href="https://ocw.mit.edu/" aria-label="Homepage"><img src="../../../../common/images/top-nav_home.png" class="home_icon" alt="Click for site home page."></a><!-- Begin Home Item -->
+</li>
+    <!-- End Home Item -->
+    <li id="drop_1" aria-label="Find Courses">
+<a href="#" aria-hidden="true">FIND COURSES</a><!-- Begin 5 columns Item -->
+    <div class="dropdown_5columns-a mega-courses">
+    <div class="col_1a">
+    <div class="row_1a">
+<nav aria-labelledby="mm-find-courses-by"><span id="mm-find-courses-by" class="nav" aria-hidden="true">Find courses by:</span>
+    <ul class="find_by" role="presentation">
+<li><a href="https://ocw.mit.edu/courses/find-by-topic/">Topic</a></li>
+        <li><a href="https://ocw.mit.edu/courses/find-by-number/">MIT Course Number</a></li>
+        <li><a href="https://ocw.mit.edu/courses/find-by-department/">Department</a></li>
+    </ul></nav><nav aria-labelledby="mm-collections"><span id="mm-collections" class="nav" aria-hidden="true">Collections</span>
+    <ul role="presentation">
+<li><a href="https://ocw.mit.edu/courses/new-courses/">New Courses</a></li>
+        <li><a href="https://ocw.mit.edu/courses/most-visited-courses/">Most Visited Courses</a></li>
+        <li><a href="https://ocw.mit.edu/courses/ocw-scholar/">OCW Scholar Courses</a></li>
+        <li><a href="https://ocw.mit.edu/courses/audio-video-courses/">Audio/Video Lectures</a></li>
+        <li><a href="https://ocw.mit.edu/courses/online-textbooks/">Online Textbooks</a></li>
+        <li><a href="https://ocw.mit.edu/resources/">Supplemental Resources</a></li>
+        <li><a href="https://ocw.mit.edu/high-school/">OCW Highlights for High School</a></li>
+        <li><a href="https://ocw.mit.edu/courses/mitx-related-courseware/">MITx &amp; Related OCW Courses</a></li>
+    </ul></nav><nav class="col_1b" aria-labelledby="mm-translated-courses"><span id="mm-translated-courses" class="nav" aria-hidden="true" style="line-height: 1.3;">Cross-Disciplinary Topic Lists</span>
+    <ul role="presentation">
+<li><a href="https://ocw.mit.edu/courses/energy-courses">Energy</a></li>
+        <li><a href="https://ocw.mit.edu/courses/entrepreneurship">Entrepreneurship</a></li>
+        <li><a href="https://ocw.mit.edu/courses/environment-courses">Environment</a></li>
+        <li><a href="https://ocw.mit.edu/courses/intro-programming">Introductory Programming</a></li>
+        <li><a href="https://ocw.mit.edu/courses/life-sciences">Life Sciences</a></li>
+        <li><a href="https://ocw.mit.edu/courses/transportation-courses">Transportation</a></li>
+    </ul></nav>
+</div>
+    <div class="row_1b"><nav aria-labelledby="mm-cross-disciplinary-topic-lists"><span id="mm-cross-disciplinary-topic-lists" class="nav" aria-hidden="true">Translated Courses</span>
+    <ul role="presentation">
+<li><a href="https://ocw.mit.edu/courses/translated-courses/traditional-chinese" aria-label="Traditional Chinese">繁體字 / Traditional Chinese</a></li>
+        <li><a href="https://ocw.mit.edu/courses/translated-courses/spanish" aria-label="Spanish">Español / Spanish</a></li>
+        <li><a href="https://ocw.mit.edu/courses/translated-courses/turkish" aria-label="Turkish">Türkçe / Turkish</a></li>
+        <li><a href="https://ocw.mit.edu/courses/translated-courses/korean" aria-label="Korean">(비디오)한국 / Korean</a></li>
+    </ul></nav></div>
+    </div>
+    </div>
+    </li>
+    <li id="drop_2">
+<a href="#" aria-label="For Educators">For Educators</a>
+    <div class="dropdown_1column-a" style="width: 270px;"><nav aria-labelledby="mm-find-courses-by"><span id="mm-find-courses-by" class="nav" aria-hidden="true">OCW Educator Portal</span>
+    <ul role="presentation">
+<li><a href="https://ocw.mit.edu/educator/?view=instructional&amp;utm_campaign=Educator&amp;utm_source=megamenu&amp;utm_medium=find-courses&amp;utm_content=approaches">Search for Instructor Insights</a></li>
+        <li><a href="https://ocw.mit.edu/educator/?view=teaching&amp;utm_campaign=Educator&amp;utm_source=megamenu&amp;utm_medium=find-courses&amp;utm_content=materials">Search for Teaching Materials</a></li>
+    </ul>
+<span id="mm-collections" class="nav" aria-hidden="true">OCW Collections</span>
+    <ul role="presentation">
+<li><a href="https://ocw.mit.edu/courses/instructor-insights/">Instructor Insights by Department</a></li>
+        <li><a href="https://ocw.mit.edu/courses/find-by-topic/#cat=teachingandeducation">MIT Courses about Teaching and Education</a></li>
+    </ul>
+<span id="mm-collections" class="nav" aria-hidden="true">K-12</span>
+    <ul role="presentation">
+<li><a href="https://ocw.mit.edu/high-school/">OCW Highlights for High School</a></li>
+        <li><a href="https://www.k12videos.mit.edu/videos" aria-label="External Link: MIT Plus K12 Videos">MIT+K12 Videos</a></li>
+    </ul>
+<span id="mm-higher-ed" class="nav" aria-hidden="true">Higher Ed</span>
+    <ul>
+<li><a href="https://teachingexcellence.mit.edu/" aria-label="External Link: Teaching Excellence at MIT">Teaching Excellence at MIT</a></li>
+        <li><a href="https://ocw.mit.edu/courses/mit-curriculum-guide/">MIT Undergraduate Curriculum Map</a></li>
+    </ul></nav></div>
+    </li>
+    <li id="drop_3">
+<a href="#" aria-hidden="true">Give Now</a>
+    <div class="dropdown_1column-a"><nav class="col_1" aria-label="Donate"><ul role="presentation">
+<li><a href="https://ocw.mit.edu/give/">Make a Donation</a></li>
+        <li><a href="https://ocw.mit.edu/give/why-give/">Why Give?</a></li>
+        <li><a href="https://ocw.mit.edu/give/our-supporters/">Our Supporters</a></li>
+        <li><a href="https://ocw.mit.edu/give/other-ways-to-contribute/">Other Ways to Contribute</a></li>
+        <li><a href="https://ocw.mit.edu/give/shop-ocw">Shop OCW</a></li>
+        <li><a href="https://ocw.mit.edu/support/">Become a Corporate Sponsor</a></li>
+    </ul></nav></div>
+    </li>
+    <li id="drop_4">
+<a href="#" aria-hidden="true">About</a>
+    <div class="dropdown_1column-a"><nav class="col_1" aria-label="About"><ul role="presentation">
+<li><a href="https://ocw.mit.edu/about/">About MIT OpenCourseWare</a></li>
+        <li><a href="https://ocw.mit.edu/about/site-statistics/">Site Statistics</a></li>
+        <li><a href="https://ocw.mit.edu/about/ocw-stories/">OCW Stories</a></li>
+        <li><a href="https://ocw.mit.edu/about/newsletter/">News</a></li>
+    </ul></nav></div>
+    </li>
+</ul></nav></div></div>
+
+</div>
+
+
+
+
+
+<!--googleoff: index-->
+<script>
+  (function() {
+	var cx = '012626166551961672889:owjdpuboktq';
+	var gcse = document.createElement('script');
+	gcse.type = 'text/javascript';
+	gcse.async = true;
+	gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(gcse, s);
+  })();
+  window.onload = function(){
+	document.getElementById('gsc-i-id1').placeholder = 'Search';	
+  };
+
+$(document).ready(function(){
+
+$('.advanceSearch a').keydown(function(event){showSearchTips($(this),event);})
+$('#searchTipsModal').keydown(function(event){showSearchTips($(this),event);})
+
+function showSearchTips(obj,evt) {
+// if pressed enter key
+	if ( evt.which == 13 || evt.which == 32) {
+		showModal();
+		ga('send', 'pageview', "AdvanceSearch");
+		$(".advanceSearch a").attr('aria-expanded', 'true');
+		$('.searchTipsModal').focus();
+		evt.preventDefault();
+		}
+	if ( evt.which == 27 ) {
+		hideModal();
+		$(".advanceSearch a").attr('aria-expanded', 'false');
+		var modal = document.getElementById('searchTipsModal');
+		modal.style.display = "none";
+		$(".advanceSearch a").focus();
+		evt.preventDefault();
+		}
+}
+
+});
+function showModal(){
+	var modal = document.getElementById('searchTipsModal');
+	modal.style.display = "block";
+	ga('send', 'pageview', "AdvanceSearch");
+	document.getElementById("searchTipsBtn").setAttribute("aria-expanded", true);
+	window.setTimeout(function () {
+    document.getElementById('searchTipsModal').focus(); }, 0);
+}
+
+function hideModal(){
+	var modal = document.getElementById('searchTipsModal');
+	modal.style.display = "none";
+	document.getElementById("searchTipsBtn").setAttribute("aria-expanded", false);
+}
+</script><div id="search" role="search" class="grid_4 omega">
+    	<table class="search"><tbody><tr>
+<td><div class="searchboxheader"><searchbox-only resultsurl="/search/ocwsearch.htm"></searchbox-only></div></td>
+						<td>
+							<div class="advanceSearch">
+								<a id="searchTipsBtn" onclick="showModal();" href="#" role="button" aria-label="search tips" aria-expanded="false" aria-describedby="searchtips">Search Tips</a>
+
+								<!-- The Modal -->
+								<div id="searchTipsModal" class="modal" tabindex="-1">
+								  <!-- Modal content -->
+									<div class="modal-content">
+										<div class="modal-body">
+											<button class="close" onclick="hideModal();" aria-label="close">X</button>
+											<span>
+												<b>Exclude words from your search</b>
+												<br>Put - in front of a word you want to leave out. For example, jaguar speed -car
+												<br><br><b>Search for an exact match</b>
+												<br>Put a word or phrase inside quotes. For example, "tallest building".
+												<br><br><b>Search for wildcards or unknown words</b>
+												<br>Put a * in your word or phrase where you want to leave a placeholder. For example, "largest * in the world".
+												<br><br><b>Search within a range of numbers</b>
+												<br>Put .. between two numbers. For example, camera $50..$100.
+												<br><br><b>Combine searches</b>
+												<br>Put "OR" between each search query. For example,  marathon OR race.
+												<br><br></span>
+										</div>
+								  </div>
+								</div>
+							</div>
+						</td>
+					</tr></tbody></table>
+</div>
+<div class="clear"></div>
+<!--googleon: index-->
+<!-- *end header* -->
+
+				
+				
+			</div>
+<!-- top grid end -->
+		</header><!-- top end --><div id="center_media">
+      	<div id="grid">
+      		<div id="left">
+        		<nav id="breadcrumb_media" aria-label="Breadcrumb"><p>
+
+    <a href="https://ocw.mit.edu/">Home</a>
+    
+        »
+        
+    
+    
+        
+            <a href="https://ocw.mit.edu/courses">Courses</a>
+            
+                »
+                
+            
+            
+         
+    
+    
+        
+            <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science">Electrical Engineering and Computer Science</a>
+            
+                »
+                
+            
+            
+         
+    
+    
+        
+            <a href="../../../../contents/index.htm">Introduction to Computer Science and Programming in Python</a>
+            
+                »
+                
+            
+            
+         
+    
+    
+        
+            <a href="../../../../contents/in-class-questions-and-video-solutions/index.htm">In-Class Questions and Video Solutions</a>
+            
+                »
+                
+            
+            
+         
+    
+    
+        
+            <a href="../../../../contents/in-class-questions-and-video-solutions/lecture-5/index.htm">Lecture 5</a>
+            
+                »
+                
+            
+            
+         
+    
+    
+        
+            
+            
+            Tuples
+         
+    
+</p>
+
+            	</nav><div class="clear"></div>
+        		<div id="media_title">
+        		<h1 class="title" itemprop="name" property="dct:title">
+        <span class="" id="parent-fieldname-title">
+            Tuples
+        </span>
+    </h1>
+        		</div>
+           		<div class="clear"></div>
+           		<div id="course_wrapper_media">
+           			<nav id="course_nav" aria-label="Course"><script language="javascript" type="text/javascript">
+function toggleMenu(objID) {
+  if (!document.getElementById) return;
+  var ob = document.getElementById(objID);
+  ob.className = (ob.className == 'selected')?'': 'selected';
+}
+function toggleClass(id)
+{
+  var divtoggleClass= document.getElementById(id);
+  divtoggleClass.className = (divtoggleClass.className == 'mO')?'mC': 'mO';
+  return false;
+}
+function changeAlt(id)
+{
+  id.alt = (id.alt == 'Expand Menu')?'Collapse Menu' : 'Expand Menu';
+  id.title = (id.title == 'Expand Menu')?'Collapse Menu' : 'Expand Menu';
+}
+</script><!--Left Nav Starts --><ul>
+<li class="">
+			   			<a href="../../../../contents/index.htm">
+		                  Course Home  			                
+	                    </a>
+		        </li>
+		    
+         	
+	
+	
+	    	
+	    	    <li class="">
+			   			<a href="../../../../contents/syllabus/index.htm">
+		                  Syllabus  			                
+	                    </a>
+		        </li>
+		    
+         	
+	
+	
+	    	
+	    	    <li class="">
+			   			<a href="../../../../contents/readings/index.htm">
+		                  Readings  			                
+	                    </a>
+		        </li>
+		    
+         	
+	
+	
+	    	
+	    	    <li class="">
+			   			<a href="../../../../contents/lecture-videos/index.htm">
+		                  Lecture Videos  			                
+	                    </a>
+		        </li>
+		    
+         	
+	
+	
+	    	
+	    	    <li class="">
+			   			<a href="../../../../contents/lecture-slides-code/index.htm">
+		                  Lecture Slides and Code  			                
+	                    </a>
+		        </li>
+		    
+         	
+	
+	
+	    	
+         	<li class="">
+       		<div class="tlp_links">
+	        	<div id="in-class-questions-and-video-solutions" class="mC">
+						<a href="#" class="" onclick="toggleMenu('menuin-class-questions-and-video-solutions'); toggleClass('in-class-questions-and-video-solutions'); return false">
+		                  <img src="../../../../common/images/trans.gif" class="expandCollapseTrans" border="0" width="10" height="12" onclick="changeAlt(this)" alt="Collapse Menu" title="Collapse Menu"></a>
+		                <a href="../../../../contents/in-class-questions-and-video-solutions/index.htm" class="">
+		                  In-Class Questions and Video Solutions  			                
+	                    </a>
+	                 			                
+	            </div>
+			    
+	        	<ul id="menuin-class-questions-and-video-solutions" class="selected">
+<li class="">
+				 		<a href="../../../../contents/in-class-questions-and-video-solutions/lecture-1/index.htm" class="">Lecture 1</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../contents/in-class-questions-and-video-solutions/lecture-2/index.htm" class="">Lecture 2</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../contents/in-class-questions-and-video-solutions/lecture-3/index.htm" class="">Lecture 3</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../contents/in-class-questions-and-video-solutions/lecture-4/index.htm" class="">Lecture 4</a>
+		            </li>
+		            <li class="selected">
+				 		<a href="../../../../contents/in-class-questions-and-video-solutions/lecture-5/index.htm" class="selected">Lecture 5</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../contents/in-class-questions-and-video-solutions/lecture-7/index.htm" class="">Lecture 7</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../contents/in-class-questions-and-video-solutions/lecture-8/index.htm" class="">Lecture 8</a>
+		            </li>
+		            <li class="">
+				 		<a href="../../../../contents/in-class-questions-and-video-solutions/lecture-9/index.htm" class="">Lecture 9</a>
+		            </li>
+			    </ul>
+</div>
+			</li>
+	
+	
+	    	
+	    	    <li class="">
+			   			<a href="../../../../contents/assignments/index.htm">
+		                  Assignments  			                
+	                    </a>
+		        </li>
+		    
+         	
+	
+	
+	    	
+	    	    
+		    
+         	
+	<!--second tal block close-->  
+	
+</ul>
+<!--Left Nav Ends --></nav><main id="course_inner_media" aria-labelledby="media_title"><div class="" id="parent-fieldname-text">
+            
+            
+        </div>
+    
+      					     
+    
+    
+
+
+
+<script type="text/javascript">var caption_embed_1 ={'English - US': '/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/in-class-questions-and-video-solutions/lecture-5/tuples/ncpb4wIsQu8.srt'}</script><div id="media-embed">
+         <div class="attention_message" id="embed_1">
+<p>Flash and JavaScript are required for this feature.</p>
+<p>Download the video from <a href="https://itunes.apple.com/us/itunes-u/id1192805159">iTunes U</a> or the <a href="https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_05_exercise_01_300k.mp4">Internet Archive</a>.</p>
+</div>
+     </div>
+    
+     <script type="text/javascript">ocw_embed_chapter_media('embed_1', 'https://www.youtube.com/v/ncpb4wIsQu8', 'youtube', '/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/in-class-questions-and-video-solutions/lecture-5/tuples', 'https://img.youtube.com/vi/ncpb4wIsQu8/0.jpg',0,0, 'https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/in-class-questions-and-video-solutions/lecture-5/tuples/ncpb4wIsQu8.srt')</script><div id="transcript1"></div>
+				 <script type="text/javascript">createThreePlayParams(2, 1399930, "embed_1", 0, 0)</script><script type="text/javascript">
+		window.onload=function(){
+		init();
+		
+		}
+		var tabLinks = new Array();
+		var contentDivs = new Array();
+		function init() {
+		  // Grab the tab links and content divs from the page
+		  var tabListItems = document.getElementById('tabs').childNodes;
+		  for ( var i = 0; i < tabListItems.length; i++ ) {
+			if ( tabListItems[i].nodeName == "LI" ) {
+			  var tabLink = getFirstChildWithTagName( tabListItems[i], 'A' );
+			  var id = getHash( tabLink.getAttribute('href') );
+			  tabLinks[id] = tabLink;
+			  contentDivs[id] = document.getElementById( id );
+			}
+		  }
+		  // Assign onclick events to the tab links, and
+		  // highlight the first tab
+		  var i = 0;
+		  for ( var id in tabLinks ) {
+			tabLinks[id].onclick = showTab;
+			tabLinks[id].onfocus = function() { this.blur() };
+			if ( i == 0 ) tabLinks[id].className = 'selected';
+			i++;
+		  }
+		  // Hide all content divs except the first
+		  var i = 0;
+		  for ( var id in contentDivs ) {
+			if ( i != 0 ) contentDivs[id].className = 'tabContent hide';
+			i++;
+		  }
+		}
+		function showTab() {
+		  var selectedId = getHash( this.getAttribute('href') );
+		  // Highlight the selected tab, and dim all others.
+		  // Also show the selected content div, and hide all others.
+		  for ( var id in contentDivs ) {
+			if ( id == selectedId ) {
+			  tabLinks[id].className = 'selected';
+			  contentDivs[id].className = 'tabContent';
+			} else {
+			  tabLinks[id].className = '';
+			  contentDivs[id].className = 'tabContent hide';
+			}
+		  }
+		  // Stop the browser following the link
+		  return false;
+		}
+		function getFirstChildWithTagName( element, tagName ) {
+		  for ( var i = 0; i < element.childNodes.length; i++ ) {
+			if ( element.childNodes[i].nodeName == tagName ) return element.childNodes[i];
+		  }
+		}
+		function getHash( url ) {
+		  var hashPos = url.lastIndexOf ( '#' );
+		  return url.substring( hashPos + 1 );
+		}
+ </script><div id="media_tabs">
+     
+        <ul id="tabs">
+<li class="first">
+                <a href="#vid_about" class="selected">About this Video</a>
+            </li>
+            <li class="">
+                <a href="#vid_index" class="">Transcript</a>
+            </li>
+            <li class="">
+                <a href="#vid_playlist" class="">Download this Video</a>
+            </li>
+        </ul>
+<div id="vid_about" itemprop="description" class="tabContent">
+<p><strong>Description:</strong> This in-class question demonstrates tuples in Python, including the difference between tuples and strings.</p> <p><strong>Instructor:</strong> Dr. Ana Bell</p>
+</div>
+        <div id="vid_index" itemprop="description" class="tabContent hide">
+<ul><li><a class="transcript-link" title="Open in a new window." alt="Open in a new window." style="text-decoration: none; font-size: 1.0em;" target="_blank" text-decoration: none font-size: href="../../../../contents/in-class-questions-and-video-solutions/lecture-5/tuples/ncpb4wIsQu8.pdf"> Download English-US transcript (PDF)</a></li></ul>
+<p><span m="790">The</span> <span m="880">following</span> <span m="1300">content</span> <span m="1870">is</span> <span m="1990">provided</span> <span m="2440">under</span> <span m="2710">a</span> <span m="2770">Creative</span> <span m="3190">Commons</span> <span m="3580">license.</span> <span m="4730">Your</span> <span m="4870">support</span> <span m="5380">will</span> <span m="5530">help</span> <span m="5770">MIT</span> <span m="6220">OpenCourseWare</span> <span m="7030">continue</span> <span m="7540">to</span> <span m="7630">offer</span> <span m="8050">high</span> <span m="8290">quality</span> <span m="8770">educational</span> <span m="9400">resources</span> <span m="10030">for</span> <span m="10210">free.</span> <span m="11390">To</span> <span m="11410">make</span> <span m="11620">a</span> <span m="11650">donation</span> <span m="12370">or</span> <span m="12610">view</span> <span m="13060">additional</span> <span m="13480">materials</span> <span m="13990">from</span> <span m="14200">hundreds</span> <span m="14590">of</span> <span m="14710">MIT</span> <span m="15130">courses,</span> <span m="16219">visit</span> <span m="16450">MIT</span> <span m="16870">OpenCourseWare</span> <span m="17880">at</span> <span m="18120">ocw.mit.edu.</span> </p>
+<p><span m="22630">PROFESSOR: All</span> <span m="22750">right,</span> <span m="22930">we've</span> <span m="23890">got</span> <span m="24190">some</span> <span m="24370">good</span> <span m="24520">competition</span> <span m="25180">here.</span> <span m="25570">So</span> <span m="26260">let's</span> <span m="26410">actually</span> <span m="26740">work</span> <span m="26950">through</span> <span m="27220">it.</span> </p>
+<p><span m="34220">So</span> <span m="34400">I</span> <span m="35090">have</span> <span m="35240">a</span> <span m="35300">function</span> <span m="35840">called</span> <span m="36080">always</span> <span m="36320">sunny</span> <span m="37070">and</span> <span m="37190">it's</span> <span m="37310">going</span> <span m="37460">to</span> <span m="37520">take</span> <span m="37820">in</span> <span m="39200">two</span> <span m="39380">variables</span> <span m="40040">right,</span> <span m="40280">t1 and</span> <span m="40490">t2.</span> <span m="42050">And</span> <span m="42170">I'm</span> <span m="42290">calling</span> <span m="42770">it</span> <span m="42950">with</span> <span m="44210">cloudy</span> <span m="45740">and</span> <span m="46010">cold.</span> </p>
+<p><span m="47810">So</span> <span m="48050">when</span> <span m="48170">I</span> <span m="48260">do</span> <span m="48410">my</span> <span m="48560">function</span> <span m="49010">call,</span> <span m="49970">t1</span> <span m="51770">is</span> <span m="51920">going</span> <span m="52100">to</span> <span m="52190">be</span> <span m="52340">equal</span> <span m="52730">to</span> <span m="56210">cloudy.</span> <span m="59140">These</span> <span m="59320">are</span> <span m="59410">strings</span> <span m="59960">but</span> <span m="61510">I'm</span> <span m="61600">not</span> <span m="61690">going</span> <span m="61810">to</span> <span m="61870">bother</span> <span m="62140">putting</span> <span m="62380">the</span> <span m="62500">quotes.</span> <span m="63910">And</span> <span m="64180">t2</span> <span m="64720">is</span> <span m="64959">equal</span> <span m="65349">to</span> <span m="67279">cold</span> <span m="68670">comma.</span> <span m="70840">So</span> <span m="71040">remember</span> <span m="71310">what</span> <span m="71460">I</span> <span m="71550">said,</span> <span m="73680">with</span> <span m="73860">a</span> <span m="73910">comma</span> <span m="74280">it's</span> <span m="74480">a</span> <span m="74550">tuple,</span> <span m="75180">without</span> <span m="75510">a</span> <span m="75570">comma</span> <span m="75960">it's</span> <span m="76110">a</span> <span m="76170">string.</span> </p>
+<p><span m="77280">So</span> <span m="77430">t1</span> <span m="77760">is</span> <span m="77910">actually</span> <span m="78180">going</span> <span m="78390">to</span> <span m="78450">be</span> <span m="78570">a</span> <span m="78630">string.</span> <span m="80930">And</span> <span m="81090">t2</span> <span m="81600">is</span> <span m="81720">actually</span> <span m="82080">a</span> <span m="82170">tuple.</span> <span m="83090">OK.</span> <span m="83970">So</span> <span m="84120">that's</span> <span m="84330">the</span> <span m="84420">first</span> <span m="84690">sort</span> <span m="84870">of</span> <span m="84990">trick</span> <span m="85260">to</span> <span m="85380">this</span> <span m="85530">question.</span> </p>
+<p><span m="89230">So</span> <span m="89460">I've</span> <span m="89610">made</span> <span m="89790">my</span> <span m="89910">function</span> <span m="90300">call</span> <span m="90600">and</span> <span m="90720">I've</span> <span m="90780">assigned</span> <span m="90960">t1</span> <span m="91280">and</span> <span m="91600">t2</span> <span m="92040">to</span> <span m="92190">be</span> <span m="92340">those</span> <span m="93330">two</span> <span m="93600">values.</span> <span m="95970">So</span> <span m="96090">the</span> <span m="96180">next</span> <span m="96450">line</span> <span m="96720">is</span> <span m="97110">sun</span> <span m="97410">is</span> <span m="97560">equal</span> <span m="97830">to</span> <span m="98400">sunny</span> <span m="98850">comma</span> <span m="99200">sun.</span> <span m="99910">So</span> <span m="100020">sun</span> <span m="100260">is</span> <span m="100350">going</span> <span m="100560">to</span> <span m="100650">be</span> <span m="100800">this</span> <span m="101010">tuple</span> <span m="101400">of</span> <span m="101520">two</span> <span m="101730">strings.</span> </p>
+<p><span m="104820">The</span> <span m="104910">next</span> <span m="105200">line</span> <span m="105600">is</span> <span m="106770">figuring</span> <span m="107190">out</span> <span m="107460">what</span> <span m="107670">first</span> <span m="108120">is.</span> <span m="110250">So</span> <span m="110460">first</span> <span m="112790">is</span> <span m="112970">going</span> <span m="113240">to</span> <span m="113390">be--</span> <span m="115660">so</span> <span m="115850">I'm</span> <span m="115970">looking</span> <span m="116240">at</span> <span m="116330">my</span> <span m="116450">t1</span> <span m="116930">here,</span> <span m="117350">it's</span> <span m="117530">a</span> <span m="117590">string.</span> <span m="119120">The</span> <span m="119210">fact</span> <span m="119420">that</span> <span m="119540">I</span> <span m="119600">have</span> <span m="119720">parentheses</span> <span m="120320">doesn't</span> <span m="120620">actually</span> <span m="120980">make</span> <span m="121160">a</span> <span m="121220">difference</span> <span m="121670">when</span> <span m="121820">I'm</span> <span m="123360">talking</span> <span m="123690">about</span> <span m="123930">strings.</span> <span m="126030">Like</span> <span m="126180">that.</span> </p>
+<p><span m="129229">So</span> <span m="129500">when</span> <span m="129680">I'm</span> <span m="129830">indexing</span> <span m="130340">into</span> <span m="130580">a</span> <span m="130639">string,</span> <span m="132020">t1</span> <span m="132530">at</span> <span m="132650">position</span> <span m="133130">0</span> <span m="133550">actually</span> <span m="133880">just</span> <span m="134090">gives</span> <span m="134300">me</span> <span m="134420">a</span> <span m="134480">C</span> <span m="136800">because</span> <span m="136950">it's</span> <span m="137070">a</span> <span m="137130">string</span> <span m="137460">not</span> <span m="137610">a</span> <span m="137670">tuple.</span> <span m="142240">And</span> <span m="143320">t2</span> <span m="143690">up</span> <span m="143830">position</span> <span m="144280">zero</span> <span m="145150">says,</span> <span m="145600">OK</span> <span m="145900">well,</span> <span m="146020">this</span> <span m="146200">is</span> <span m="146290">a</span> <span m="146380">tuple</span> <span m="146800">that</span> <span m="146920">contains</span> <span m="147280">only</span> <span m="147490">one</span> <span m="147700">element.</span> <span m="148900">That</span> <span m="149080">element</span> <span m="149440">being</span> <span m="149740">at</span> <span m="149830">position</span> <span m="150410">0,</span> <span m="151870">and</span> <span m="152020">that</span> <span m="152140">element</span> <span m="152560">is</span> <span m="152740">the</span> <span m="152860">string,</span> <span m="153850">cold.</span> </p>
+<p><span m="157670">So</span> <span m="157790">this</span> <span m="157910">is</span> <span m="158000">a</span> <span m="158090">tuple.</span> <span m="159090">So</span> <span m="159350">I'm</span> <span m="159470">taking</span> <span m="159860">everything</span> <span m="161450">right</span> <span m="161690">before</span> <span m="161960">the</span> <span m="162080">first</span> <span m="162320">comma.</span> <span m="163090">And</span> <span m="163220">that</span> <span m="163610">happens</span> <span m="163940">to</span> <span m="164030">be</span> <span m="164150">just</span> <span m="164300">the</span> <span m="164420">one</span> <span m="164600">element</span> <span m="164900">that's</span> <span m="165110">in</span> <span m="165230">there.</span> <span m="168150">So</span> <span m="168300">this</span> <span m="168540">is</span> <span m="168690">just</span> <span m="168910">the</span> <span m="169020">string</span> <span m="169410">C</span> <span m="169680">cold.</span> <span m="173780">And</span> <span m="173930">then</span> <span m="174140">I'm</span> <span m="174260">returning</span> <span m="174950">here</span> <span m="175250">a</span> <span m="175340">tuple.</span> <span m="177730">And the</span> <span m="177950">tuple</span> <span m="178290">I'm</span> <span m="178410">returning</span> <span m="178980">is</span> <span m="179580">sun</span> <span m="180030">at</span> <span m="180240">position</span> <span m="180750">0,</span> <span m="181290">so</span> <span m="181500">that's</span> <span m="181770">just sunny</span> <span m="186240">comma.</span> </p>
+<p><span m="187520">Just</span> <span m="187700">doing</span> <span m="187940">what's</span> <span m="188660">in</span> <span m="188780">here.</span> <span m="189590">And</span> <span m="189680">then</span> <span m="189830">first,</span> <span m="191060">and</span> <span m="191180">first</span> <span m="191570">was</span> <span m="191840">this</span> <span m="191970">string,</span> <span m="192410">C</span> <span m="193090">cold.</span> </p>
+<p><span m="196960">So</span> <span m="197170">really</span> <span m="197380">the</span> <span m="197470">important</span> <span m="197800">thing</span> <span m="199060">about</span> <span m="199360">this</span> <span m="199900">example</span> <span m="200470">was</span> <span m="200710">to</span> <span m="200830">make</span> <span m="201010">sure</span> <span m="201190">that</span> <span m="201280">you</span> <span m="201370">understand</span> <span m="201790">the</span> <span m="201850">difference</span> <span m="202210">between</span> <span m="203020">what</span> <span m="203140">a</span> <span m="203200">string</span> <span m="203560">is</span> <span m="204370">and</span> <span m="204460">what</span> <span m="204640">a</span> <span m="204700">tuple</span> <span m="205060">is.</span> </p>
+</div>
+        <div id="vid_playlist" itemprop="description" class="tabContent hide">
+<h2 class="subhead">Free Downloads</h2>
+<h3 class="subsubhead">Video</h3>
+<ul>
+<li>iTunes U (<a href="https://itunes.apple.com/us/itunes-u/id1192805159">MP4 - 10MB</a>)</li>
+<li>Internet Archive (<a href="https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_05_exercise_01_300k.mp4">MP4 - 10MB</a>)</li>
+</ul>
+<br><h3 class="subsubhead">Caption</h3>
+<ul><li>English-US (<a href="../../../../contents/in-class-questions-and-video-solutions/lecture-5/tuples/ncpb4wIsQu8.srt">SRT</a>)</li></ul>
+</div>
+    
+   </div>  
+
+
+
+      					 
+        <div class="" id="parent-fieldname-bottom_html_area">
+            
+            
+        </div>
+    
+               </main><!--Course_inner_media tag close -->
+</div>
+<!--Course_wrapper tag close -->
+            </div>
+<!--left tag close -->
+            <aside id="right"><!--Begin Right Portion --><div>
+    
+
+
+
+</div>
+
+                	<div>
+    
+
+
+
+</div>
+
+
+        <div class="" id="parent-fieldname-rsi_top_html_area">
+            
+            
+        </div>
+    
+
+<!-- RSI google ad space-->
+
+
+<div id="google_ads">    
+    <script type="text/javascript" src="https://partner.googleadservices.com/gampad/google_service.js"></script><script type="text/javascript">GS_googleAddAdSenseService("ca-pub-6588555046597237");GS_googleEnableAllServices();</script><script type="text/javascript">GA_googleAddSlot("ca-pub-6588555046597237", "VIDEO_INDIVIDUAL_SLOT_A_DL");GA_googleAddSlot("ca-pub-6588555046597237", "VIDEO_INDIVIDUAL_SLOT_B_DL");GA_googleAddSlot("ca-pub-6588555046597237", "VIDEO_INDIVIDUAL_SLOT_C_DL");</script><script type="text/javascript">GA_googleFetchAds();</script><script language="javascript" type="text/javascript">
+GA_googleAddAttr("TYPE","HOUSE");
+GA_googleAddAttr("DEPARTMENT","6");
+GA_googleAddAttr("CRS_BEG2","00");
+GA_googleAddAttr("CRS_END","01");
+GA_googleAddAttr("SESSION","F");
+GA_googleAddAttr("YEAR","16");
+</script><script type="text/javascript">GA_googleFillSlot("VIDEO_INDIVIDUAL_SLOT_A_DL");</script><script type="text/javascript">GA_googleFillSlot("VIDEO_INDIVIDUAL_SLOT_B_DL");</script><script type="text/javascript">GA_googleFillSlot("VIDEO_INDIVIDUAL_SLOT_C_DL");</script>
+</div>
+
+<!-- End RSI ads--> 
+
+<div>
+    
+
+
+
+</div>
+
+            </aside><!--Right div close --><div class="clear"></div>
+        </div>
+<!--grid tag close -->
+      </div>
+		
+		<footer id="bottom"><div id="grid">
+				
+<div id="portletwrapper-6f63772e626f74746f6d706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d666f6f746572" class="portletWrapper kssattr-portlethash-6f63772e626f74746f6d706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d666f6f746572">
+<div class="portletStaticText portlet-static-site-footer"><div id="footer">
+<nav aria-label="Footer"><nav id="foot-c1" class="grid_2 alpha" aria-labelledby="f-find-courses"><span class="footer" id="f-find-courses" aria-hidden="true">Find Courses</span>
+<ul class="foot-bullet" role="presentation">
+<li><a href="https://ocw.mit.edu/courses/find-by-topic/">Find by Topic</a></li>
+    <li><a href="https://ocw.mit.edu/courses/find-by-number/">Find by Course Number</a></li>
+    <li><a href="https://ocw.mit.edu/courses/find-by-department/">Find by Department</a></li>
+    <li><a href="https://ocw.mit.edu/courses/new-courses/">New Courses</a></li>
+    <li><a href="https://ocw.mit.edu/courses/most-visited-courses/">Most Visited Courses</a></li>
+    <li><a href="https://ocw.mit.edu/courses/ocw-scholar/">OCW Scholar Courses</a></li>
+    <li><a href="https://ocw.mit.edu/courses/audio-video-courses/">Audio/Video Courses</a></li>
+    <li><a href="https://ocw.mit.edu/courses/online-textbooks/">Online Textbooks</a></li>
+    <li><a href="https://ocw.mit.edu/courses/instructor-insights/">Instructor Insights</a></li>
+    <li><a href="https://ocw.mit.edu/resources/">Supplemental Resources</a></li>
+    <li><a href="https://ocw.mit.edu/courses/mitx-related-courseware/">MITx &amp; Related OCW Courses</a></li>
+    <li><a href="https://ocw.mit.edu/courses/translated-courses/">Translated Courses</a></li>
+</ul></nav><div id="foot-c2" class="grid_2"><nav aria-labelledby="f-for-educators"><span id="f-for-educators" class="footer" aria-hidden="true">For Educators</span>
+<ul class="foot-bullet" role="presentation">
+<li><a href="https://ocw.mit.edu/educator/?view=instructional&amp;utm_campaign=Educator&amp;utm_source=footer&amp;utm_medium=find-courses&amp;utm_content=approaches">Search for Instructor Insights</a></li>
+    <li><a href="https://ocw.mit.edu/educator/?view=teaching&amp;utm_campaign=Educator&amp;utm_source=footer&amp;utm_medium=find-courses&amp;utm_content=materials">Search for Teaching Materials</a></li>
+    <li><a href="https://ocw.mit.edu/courses/instructor-insights/">Instructor Insights by Department</a></li>
+    <li><a href="https://ocw.mit.edu/courses/find-by-topic/#cat=teachingandeducation">MIT Courses about Teaching and Education</a></li>
+    <li><a href="https://ocw.mit.edu/high-school/">Highlights for High School</a></li>
+    <li><a href="http://k12videos.mit.edu" aria-label="External Link: MIT+K12 Videos">MIT+K12 Videos</a></li>
+    <li><a href="http://teachingexcellence.mit.edu/" aria-label="External Link: Teaching Excellence at MIT">Teaching Excellence at MIT</a></li>
+    <li><a href="https://ocw.mit.edu/courses/mit-curriculum-guide/">MIT Undergraduate Curriculum Map</a></li>
+</ul></nav></div>
+<nav class="grid_2" id="foot-c3" aria-labelledby="f-donate"><span id="f-donate" class="footer" aria-hidden="true">Give Now</span>
+<ul class="foot-bullet" role="presentation">
+<li><a href="https://ocw.mit.edu/give/">Make a Donation</a></li>
+    <li><a href="https://ocw.mit.edu/give/why-give/">Why Give?</a></li>
+    <li><a href="https://ocw.mit.edu/give/our-supporters/">Our Supporters</a></li>
+    <li><a href="https://ocw.mit.edu/give/other-ways-to-contribute/">Other Ways to Contribute</a></li>
+    <li><a href="https://ocw.mit.edu/give/shop-ocw/">Shop OCW</a></li>
+    <li><a href="https://ocw.mit.edu/support/">Become a Corporate Sponsor</a></li>
+</ul></nav><div class="grid_2" id="foot-c4">
+<nav aria-labelledby="f-about"><span id="f-about" class="footer" aria-hidden="true">About</span>
+<ul class="foot-bullet" role="presentation">
+<li><a href="https://ocw.mit.edu/about/">About OpenCourseWare</a></li>
+    <li><a href="https://ocw.mit.edu/about/site-statistics/">Site Statistics</a></li>
+    <li><a href="https://ocw.mit.edu/about/ocw-stories/">OCW Stories</a></li>
+    <li><a href="https://ocw.mit.edu/about/newsletter/">News</a></li>
+    <li><a href="https://ocw.mit.edu/about/media-coverage/press-releases/">Press Releases</a></li>
+</ul></nav><!--about--><nav aria-labelledby="f-tools"><span id="f-tools" class="footer" aria-hidden="true">Tools</span>
+<ul class="foot-bullet" role="presentation">
+<li><a href="https://ocw.mit.edu/help/">Help &amp; FAQs</a></li>
+    <li><a href="../../../../common/jsp/feedback.htm">Contact Us</a></li>
+    <li><a href="https://ocw.mit.edu/help/site-map/">Site Map</a></li>
+    <li><a href="../../../../common/terms/index.htm">Privacy &amp; Terms of Use</a></li>
+    <li><a href="https://ocw.mit.edu/help/rss/">RSS Feeds</a></li>
+</ul></nav><!--tools-->
+</div>
+</nav><aside style="min-height: 289px;" aria-labelledby="f-our-corporate-supporters" class="grid_4 omega" id="foot-c5"><span aria-hidden="true" class="footer" id="f-our-corporate-supporters">Our Corporate Supporters</span>           <!-- HOME_CORP_LOGO_1 -->
+<div id="div-gpt-ad-1388181177156-0" class="sponsors_google_ads_even"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-0'); });
+            </script></div>
+<!-- HOME_CORP_LOGO_2 -->
+<div id="div-gpt-ad-1388181177156-1" class="sponsors_google_ads_odd"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-1'); });
+            </script></div>
+<!-- HOME_CORP_LOGO_3 -->
+<div id="div-gpt-ad-1388181177156-2" class="sponsors_google_ads_even"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-2'); });
+            </script></div>
+<!-- HOME_CORP_LOGO_4 -->
+<div id="div-gpt-ad-1388181177156-3" class="sponsors_google_ads_odd"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-3'); });
+            </script></div>
+<!-- HOME_CORP_LOGO_5 -->
+<div id="div-gpt-ad-1388181177156-4" class="sponsors_google_ads_even"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-4'); });
+              </script></div>
+<!-- HOME_CORP_LOGO_6 -->
+<div id="div-gpt-ad-1388181177156-5" class="sponsors_google_ads_odd"><script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-1388181177156-5'); });
+              </script></div>
+</aside><div class="grid_12 alpha omega" itemprop="publisher" itemscope="" itemtype="http://schema.org/CollegeOrUniversity">
+<h4 class="footer" style="border-top: thin solid #d5c9ba; padding-top: 10px; margin-bottom: 10px;">About <span itemprop="name">MIT OpenCourseWare</span>
+</h4>
+<p style="color: #999; font-size: 1em; line-height: 1.5em; margin-top: 10px;" itemprop="description">MIT OpenCourseWare makes the materials used in the teaching of almost all of MIT's subjects available on the Web, free of charge. With more than 2,400 courses available, OCW is delivering on the promise of open sharing of knowledge. <a href="http://ocw.mit.edu/about/">Learn more »</a></p>
+</div>
+<div id="foot-copy" class="grid_12 alpha omega" style="border-top: none;">
+<a href="http://web.mit.edu"><img src="../../../../common/images/logo_mit.png" alt="Massachusetts Institute of Technology logo and name." style="width: 195; height: 44;"></a><a href="http://odl.mit.edu"><img src="https://ocw.mit.edu/images/logo_odl.png" alt="MIT Office of Digital Learning logo and name." style="width: 289; height: 54; vertical-align: top;"></a><a href="http://www.oeconsortium.org/"><img src="https://ocw.mit.edu/images/logo_oec.png" alt="Open Education Consortium logo." style="width: 219px; height: 59px; vertical-align: top;"></a><a rel="license" itemprop="useRightsUrl" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="../../../../common/images/cc_by-nc-sa.png" alt="Creative Commons logo with terms BY-NC-SA." style="width: 126px; height: 44px; margin-right: 0; margin-left: 13px;"></a>
+<p class="copyright">© 2001–2018<br>
+Massachusetts Institute of Technology</p>
+<p style="font-size: 0.9em; margin-bottom: 15px;">Your use of the MIT OpenCourseWare site and materials is subject to our <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">Creative Commons License</a> and other <a href="../../../../common/terms/index.htm" rel="cc:morePermissions">terms of use</a>.</p>
+</div>
+</div></div>
+
+</div>
+
+
+
+
+
+                
+			</div> <!-- bottom grid end -->
+		</footer><!-- footer bottom end -->
+</body>
+</html>
