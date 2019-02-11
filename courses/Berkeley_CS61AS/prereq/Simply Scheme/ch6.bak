@@ -1,0 +1,88 @@
+(define (square x)
+  (* x x))
+
+(define (greet name)
+  (if (equal? (first name) 'professor)
+      (sentence '(I hope I am not bothering you) 'professor (last name))
+      (sentence '(Good to see you) (first name))))
+
+(define (vowel? letter)
+  (member? letter 'aeiouAEIOU))
+
+(define (positive? number)
+  (> number 0))
+
+(define (abs num)
+  (sqrt (square num))) 
+
+(define (buzz num)
+  (if (or (divisible? num 7) (member? 7 num))
+      'buzz
+      num))
+
+(define (divisible? big little)
+  (= (remainder big little) 0))
+
+(define (plural wd) ; first version
+  (word wd 's))
+
+(define (plural wd) ; second version
+  (if (equal? (last wd) 'y)
+      (word (butlast wd) 'ies)
+      (word wd 's)))
+
+(define (divisible-by-4? x)
+  (and (number? x) (divisible? x 4)))
+
+(define (integer-quotient dividend divisor) ; first version
+  (if (divisible? dividend divisor)
+      (/ dividend divisor)
+      #f))
+
+(define (integer-quotient dividend divisor) ; second version
+  (and (divisible? dividend divisor)
+       (/ dividend divisor)))
+
+(define (roman-value letter)
+  (cond ((equal? letter 'i) 1)
+        ((equal? letter 'v) 5)
+        ((equal? letter 'x) 10)
+        ((equal? letter 'l) 50)
+        ((equal? letter 'c) 100)
+        ((equal? letter 'd) 500)
+        ((equal? letter 'm) 1000)
+        (else '(Not a Roman Number))))
+
+(define (sign number)
+  (cond ((< number 0) 'negative)
+        ((= number 0) 'zero)
+        ('positive)))
+
+(define (utensil meal)
+  (if (equal? meal 'chinese) 'chopsticks
+      'fork))
+
+(define (european-time time)
+  (cond ((equal? (last time) 'pm) (+ (first time) 12))
+        ((equal? (first time) 12) 0)
+        (else (first time))))
+
+(define (american-time time)
+  (cond ((= time 0) '(12 am))
+        ((< time 12) (sentence time 'am))
+        ((= time 12) (sentence time 'pm))
+        (else (sentence (- time 12) 'pm))))
+
+(define (teen? age)
+  (and (< 12 age) (> 20 age)))
+
+(define (type-of argument)
+  (cond ((number? argument) 'number)
+        ((sentence? argument) 'sentence)
+        ((word? argument) 'word)
+        ((boolean? argument) 'boolean)
+        (else '(I "don't" know what just happened))))
+
+(define (indef-article wd)
+  (if (vowel? (first wd)) (sentence 'an wd)
+      (sentence 'a wd)))

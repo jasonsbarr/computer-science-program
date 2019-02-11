@@ -1,0 +1,81 @@
+#lang racket
+
+;; A line starting with a semicolon is a "comment".  You write
+;; comments in order to explain in English what your code does, and
+;; Racket knows to ignore comments since they aren't part of the
+;; program.
+
+;; This tells Racket that you want to use words and sentences (which
+;; are disabled by default).
+(require (planet dyoo/simply-scheme:2:2))
+
+;; This tells Racket that it should "know" about all the functions you
+;; define in this file.  (Don't worry about this for now.)
+(provide (all-defined-out))
+
+;; Exercise 0 - Introduce yourself
+
+#|
+
+This is a comment that spans multiple lines.
+
+1) What is your name?
+Jason Barr
+
+2) What is your major?
+If I had one, it would be Computer Science
+
+3) Are you a returning student? (i.e. Did you take 61AS last semester?)
+Nope
+
+4) What made you to take 61AS?
+I wanted an intro course that focused on program design but _didn't_ use Python
+
+5) Tell us interesting things about yourself.
+I have a BA in music and finished the coursework for an MA in theological studies.
+
+I play about 15 different musical instruments, depending on how you divide up percussion instruments.
+
+I have the most amazing 5 year old son in the entire world. I'm sure every parent says that about their kid; it just so happens that my assessment is objectively correct. ;)
+
+|#
+
+;; Make a followup on the "Hello World!" post on Piazza introducing yourself.
+
+
+;; Exercise 1 - Define sum-of-squares
+(define (square x) (* x x))
+(define (sum-of-squares num1 num2) (+ (square num1) (square num2)))
+
+;; Exercise 2a - Define can-drive
+; if age < 16 'Not yet else 'Good to go
+(define (can-drive age)
+  (if (< age 16) '(Not yet)
+    '(Good to go)
+  )
+)
+
+
+;; Exercise 2b - Define fizzbuzz
+(define (fizzbuzz num)
+  (cond ((= (remainder num 15) 0) 'fizzbuzz)
+        ((= (remainder num 3) 0) 'fizz)
+        ((= (remainder num 5) 0) 'buzz)
+        (else num)
+  )
+)
+
+;; Exercise 3 - Why did the Walrus cross the Serengeti?
+
+#|
+Your answer here
+
+
+|#
+
+;; Exercise 4 - new-if vs if
+
+#|
+Your answer here
+
+|#

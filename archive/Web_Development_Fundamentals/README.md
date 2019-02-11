@@ -110,8 +110,8 @@ Monday, 8/27/2018
 - Work through all materials
 - Refactor existing websites/apps to use modern CSS techniques where applicable
 - Build a new website/app that showcases everything studied so far
-- Make sure app is fully responsive and uses icons, app manifest, etc.
-- Make full app functionality available offline with storage, service workers, etc.
+  - Make sure app is fully responsive and uses icons, app manifest, etc.
+  - Make full app functionality available offline with storage, service workers, etc.
 
 ### Module 8: Sass and Modern Front-End Workflow
 

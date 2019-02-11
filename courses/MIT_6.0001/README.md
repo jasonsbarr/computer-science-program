@@ -8,21 +8,18 @@ To provide students with an understanding of the role computation can play in so
 
 ### Main
 
-- [EdX](https://courses.edx.org/courses/course-v1:MITx+6.00.1x+2T2017_2/course/)
+-   [MIT OCW](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm)
 - [Official textbook - buy](https://www.amazon.com/Introduction-Computation-Programming-Using-Python/dp/0262529629/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=PA4WJEFRBT09HDKVTWMQ)
 
 ### Supplemental
 
-- [MIT OCW](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm)
 - [Alternative textbook - free](http://greenteapress.com/wp/think-python-2e/)
 - [Tutorials](https://plus.google.com/u/0/106151843486000968534)
-- [Harvard CS50](http://cs50.tv/2017/fall/)
-- [Crash Course Computer Science](https://www.youtube.com/playlist?list=PLME-KWdxI8dcaHSzzRsNuOLXtM2Ep_C7a)
 
 ## Requirements
 
-- Problem sets for each EdX week
-- Finger exercises for each lecture
+- Problem sets for each week
+- All exercises for each lecture & in book
 - Midterm
 - Final
 

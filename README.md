@@ -18,8 +18,6 @@
   - [Operating Systems](#operating-systems)
   - [Databases](#databases)
   - [Machine Learning](#machine-learning)
-  - [Specialization: Modern Web Development with Data Science Applications](#web-development-specialization)
-  - [Capstone Project](#capstone-project)
 - [Resources](#resources)
   - [Program Design](#program-design)
   - [Ultralearning](#ultralearning)
@@ -29,11 +27,11 @@
 
 ## Goal
 
-To attain roughly a BS-level computer science education with a specialization in modern full-stack web development with data science applications in approximately 2-3 years using material available to the general public outside of a university setting.
+To attain a B.S.-level computer science education with a specialization in modern full-stack web development with data science applications in 1 year using material available to the general public outside of a university setting.
 
-I could probably go through all the material faster if I wanted, but my intent is to retain the material for future personal and professional use, not just to cover it all in a short period of time.
+I intend to retain the material for future personal and professional use, not just to cover it all in a short period of time.
 
-I will not be getting a degree for this work, and I probably won't take many of the courses for certificates (if any). The knowledge and skills are the point, not a piece of paper at the end.
+I will not be getting a degree for this work, and I probably won't take any of the courses for certificates or credit. The knowledge and skills are the point, not a piece of paper at the end.
 
 I will also document my progress through each course on my website to serve as a future resource for myself and anyone else who may be interested.
 
@@ -41,23 +39,22 @@ This will include the "ultralearning" method of essentially writing the textbook
 
 ## Materials
 
-I will be using a number of resources to create the curriculum:
+I will use the following resources to create the curriculum:
 
 - Open courses, course archives, and recorded lectures from university courses in CS, math, data science, and web development
 - Books, preferably _legally_ available online (but I'll also definitely be buying some books).
   - Fortunately, in computer science and web development there are a large number of excellent books on many topics whose authors have generously made them freely available online
-- Courses from providers like EdX, Coursera, Udemy, etc.
 - Technical papers and journal articles (again, preferably freely available online)
 - Tutorials, articles, blog posts, etc.
 
 ## Methodology
 
-- Work on 2 CS courses and one math/statistics/data science course at a time until finished.
-  - Focus will be on learning each course thoroughly, not necessarily on finishing the material in a particular time frame, but spending time on each course daily should accelerate the time frame over what's possible in a regular undergraduate program.
+- Work on 4 courses at a time until finished.
+  - My focus will be on learning each course thoroughly, not necessarily on finishing the material in a particular time frame, but I will set prospective time frames for each set of courses to help me focus on daily progress and rapid assimilation of knowledge. 
   - Working on multiple courses at once will leverage techniques to help with learning and retention, like spaced repetition and interleaving
   - Making the courses sequential with a defined structure will alleviate my anxiety and ADHD/executive functioning issues that make open-ended projects difficult
 - View all lectures for courses that have them available; otherwise use supplemental videos where appropriate
-- Complete all readings, including textbooks (may substitute equivalent openly available book for required course textbooks), lecture notes, handouts, etc.
+- Complete all readings, including textbooks (may substitute a similar book for required course textbooks when one is freely available online), lecture notes, handouts, etc.
 - Do all assignments, including projects, problem sets, presentations, and writing assignments
 - Find and complete practice problems for every course unit to solidify the information
 - Find and build related projects for as many course units as possible for the same reason
@@ -66,151 +63,99 @@ I will be using a number of resources to create the curriculum:
 - Write reports on the material covered in my own words, as in the ["write your own textbook" ultralearning method](http://calnewport.com/blog/2012/08/10/you-know-what-you-write-the-textbook-method-for-ultra-learning/)
 - Where tests are available, take them all
 - Use grading solutions and keys when available to evaluate course performance
-- When necessary, grade myself (this is obviously not the preferred option)
-- Build capstone application project at end of specialized web development curriculum
 
 ## Curriculum
 
-### Preparatory
+Before starting the college-level math courses I will review algebra, geometry, and precalculus. I need a refresher because it's been 20 years since I graduated high school.
 
-- Math Review: [Khan Academy](https://khanacademy.org) and other resources
-  - Algebra
-  - Geometry
-  - Trigonometry
-- Precalculus (EdX, UT Austin)
+Most of the college-level courses I've plotted out are from MIT because they probably have the most extensive collection of online course material of any school. My program contains most of the required courses from the MIT Computer Science and Engineering degree program.
 
-### Computer Science Introduction
+I've added some courses from other schools to make up for the few courses in MIT's curriculum that don't have sufficient online material. I've also added the intro CS sequences from Berkeley and Stanford because they cover topics I want to study more broadly and deeply than what MIT's core curriculum includes. Finally, I've added a few additional courses in core CS areas like operating systems, programming languages, and so on.
 
-- Course: [Introduction to Computer Science and Programming in Python (MIT &ndash; 6.0001)](./courses/MIT_6.0001)
-- Course: Introduction to Computational Thinking and Data Science (MIT &ndash; 6.0002)
+This all adds up to more courses than one would normally take to fulfill major requirements for a B.S. in CS degree, but I have room for some extra courses since I'm not doing any general education courses (I got plenty of that in my undergraduate program).
 
-### Programming
+### Courses
 
-#### Introductory
+#### Math Review
 
-- Course: [Structure and Interpretation of Computer Programs (UC Berkeley &ndash; CS 61AS)](./courses/Berkeley_CS61AS)
+- Review I - Algebra & Geometry
+- Review II - Trigonometry & Precalculus
 
-#### Object-Oriented Programming
+#### Computer Science Fundamentals
 
-- Course: Programming Methodology (Stanford CS 106A)
+- MIT 6.000 - Intro to Computer Science and Programming (6.0001 + 6.0002 combined)
+- Berkeley CS61AS - Structure and Interpretation of Computer Programs (Scheme version)
+- Berkeley CS61B - Data Structures
 
-#### C/C++ & Lower-Level Abstraction
+#### C Programming and Computer Architecture
 
-- Course: C Programming with Linux certificate sequence (EdX, Dartmouth)
-- Course: Programming Abstractions (Stanford CS 106B)
-- Course: Programming Paradigms (Stanford CS 107)
+- Harvard CS50 lectures 0-7, followed by Nand2Tetris
+- Berkeley CS 61C - Great Ideas in Computer Architecture
 
-#### Software Engineering
+#### Introduction to Programming
 
-- Course: Software Engineering (Cornell CS 5150)
+- Stanford CS106A - Programming Methodology
+- Stanford CS106B - Programming Abstractions
+- Stanford CS107 - Programming Paradigms
 
-### Math
+#### Core Math
 
-#### Calculus
+- MIT 18.01 - Single Variable Calculus
+- MIT 18.02 - Multivariable Calculus
+- MIT 6.042 - Mathematics for Computer Science
 
-- _Single Variable Calculus - Option 1_
-  - Course: Calculus 1A - Differentiation (EdX, MIT)
-  - Course: Calculus 1B - Integration (EdX, MIT)
-  - Course: Calculus 1C - Coordinate Systems & Infinite Series (EdX, MIT)
-- _Option 2_
-  - Course: Single Variable Calculus (MIT 18.01)
+#### Core Computer Science and Engineering courses
 
-#### Math for CS
-
-- Course: Mathematics for Computer Science (MIT 6.042J)
-
-#### Statistics and Probability
-
-- Course: Fundamentals of Statistics (EdX, MIT)
-- Course: Introduction to Probability (EdX, MIT)
+- MIT 6.004 - Engineering of Digital Systems
+- MIT 6.006 - Introduction to Algorithms
+- MIT 6.031 - Software Construction
+- MIT 6.033 - Computer System Engineering
+- MIT 6.034 - Artificial Intelligence
+- MIT 6.045 - Automata, Computability, and Complexity
+- MIT 6.046 - Design and Analysis of Algorithms
 
 #### Advanced Math
 
-- Course: Multivariable Calculus (MIT 18.02)
-- Course: Linear Algebra (MIT 18.06)
+- MIT 18.03 - Differential Equations
+- MIT 18.06 - Linear Algebra
 
-### Data Structures/Algorithms
+#### Operating Systems
 
-- Course: Data Structures (Berkeley CS 61B)
-- Course: Design and Analysis of Algorithms (MIT 6.046)
+- TBD
 
-### CS Theory
+#### Networking
 
-- Course: Great Ideas in Theoretical Computer Science (MIT 6.045)
+- TBD
 
-### Computer Architecture
+#### Databases
 
-- Course: Great Ideas in Computer Architecture (Berkeley CS 61C)
+- TBD
 
-### Systems
+#### Languages and Compilers
 
-- Course: Computation Structures (MIT 6.004)
-- Course: Computer System Engineering (MIT 6.033)
+- TBD
 
-### Networking
+#### Distributed and Parallel Systems
 
-- Course: Introduction to Computer Networking (Stanford CS 144)
+- TBD
 
-### Operating Systems
+#### Probability and Statistics
 
-- Course: Operating Systems and Systems Programming (Berkeley CS 162)
+- MIT 6.041 - Probabilistic Systems Analysis and Applied Probability
+- MIT 18.650 - Statistics for Applications
 
-### Programming Languages
+#### Data Science
 
-- Course: Programming Languages (Brown CSCI 173)
+- TBD
 
-### Databases
+#### Machine Learning
 
-- Course: Introduction to Database Systems (Berkeley CS 186)
+- Stanford CS229 - Machine Learning
 
-### Machine Learning
+#### Advanced Electives
 
-- Course: Machine Learning (Stanford CS 229)
-
-### Web Development Specialization
-
-- [Web Development Fundamentals](./courses/Web_Development_Fundamentals)
-  - Modern JavaScript
-  - HTML5
-  - CSS3
-- Responsive Web Development
-  - Basic ideas and techniques
-  - jQuery
-  - Bootstrap
-- Intermediate JavaScript Fundamentals and ES2015+
-- JavaScript and Computer Science
-  - Data Structures and Algorithms
-  - Functional Programming
-  - Object-Oriented Programming
-- Application Design and Architecture
-  - UX
-  - JavaScript Design Patterns
-  - Application Development
-- Backend Web Development: Node, Express, and Databases
-- UI and Full Stack Development with React
-- Modern Workflow, Tools, Server/Cloud Administration, and DevOps with CI/CD
-- Advanced JavaScript
-- Reactive JavaScript Programming
-- Advanced Applications: Testing, Security, and Performance
-- Progressive Web Apps
-- Python and Django Web Development
-- Python for Data Science
-- Probability and Statistics Using Python
-- Machine Learning with Python
-- Data Visualization and Machine Learning for the Web
-
-### Capstone Project
-
-Build and deploy a large scale (e.g. could be an early version of an enterprise or startup application) database-driven full-stack application with:
-
-- User authentication
-- Admin panel
-- Data science/machine learning component
-- Access to at least one external API
-
-App must feature good UX principles, a well-planned application architecture, performance optimization, reasonably secure code, and be built using test or behavior-driven principles.
-
-Node should be the application backend and the data processing/machine learning application should be in Python.
+- TBD
+- TBD
 
 ## Resources
 
@@ -220,8 +165,6 @@ Node should be the application backend and the data processing/machine learning 
 - https://github.com/mvillaloboz/open-source-cs-degree
 - https://github.com/ossu/computer-science
 - https://hackernoon.com/i-wanted-to-learn-computer-science-so-i-created-my-own-degree-heres-my-curriculum-bad56f28c278
-- https://codeburst.io/the-ultimate-guide-to-learning-full-stack-web-development-in-6-months-for-30-72b3854a7458
-- https://hackernoon.com/learn-to-code-in-2018-get-hired-and-have-fun-along-the-way-b338247eed6a
 
 ### Ultralearning
 
@@ -236,17 +179,15 @@ Node should be the application backend and the data processing/machine learning 
 
 - https://github.com/tuvtran/project-based-learning
 - https://github.com/P1xt/p1xt-guides/blob/master/wd-cs.md
-- https://github.com/P1xt/p1xt-guides/blob/master/job-ready-javascript-edition-2.0.md
 - https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md
 - https://github.com/P1xt/p1xt-guides/blob/master/cs-wd.md
 
 ### Practice Problems
 
-- https://github.com/trekhleb/javascript-algorithms
-- Python Interview Prep: https://www.hackerrank.com/chingu-challenge-3
-- JavaScript Interview Prep: https://www.hackerrank.com/chingu-challenge-9-javascript-prep
+- https://www.hackerrank.com/chingu-challenge-3
 - https://www.hackerrank.com/interview/interview-preparation-kit
 - https://exercism.io
+- https://leetcode.com
 
 ## Legal
 
@@ -265,7 +206,7 @@ I believe I am making use of them in ways that are consistent with the publisher
 
 I release all materials, including code, text and other documents, and any others that are subject to my copyright ownership under the [MIT License](https://en.wikipedia.org/wiki/MIT_License):
 
-&copy; 2018 Jason Barr
+&copy; 2018 Jason Barr jason@jasonsbarr.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
