@@ -114,23 +114,23 @@ This all adds up to more courses than one would normally take to fulfill major r
 
 #### Operating Systems
 
-- TBD
+- MIT 6.828 - Operating System Engineering
 
 #### Networking
 
-- TBD
+- Berkeley CS168 - Computer Networks and the Internet
 
 #### Databases
 
-- TBD
+- Berkeley CS186 - Introduction to Database Systems
 
 #### Languages and Compilers
 
-- TBD
+- MIT 6.035 - Computer Language Engineering
 
 #### Distributed and Parallel Systems
 
-- TBD
+- MIT 6.824 - Distributed Computer Systems
 
 #### Probability and Statistics
 
@@ -139,16 +139,16 @@ This all adds up to more courses than one would normally take to fulfill major r
 
 #### Data Science
 
-- TBD
+- Harvard CS109A - Introduction to Data Science I
+- Harvard CS109B - Introduction to Data Science II
 
 #### Machine Learning
 
 - Stanford CS229 - Machine Learning
 
-#### Advanced Electives
+#### Artificial Intelligence
 
-- TBD
-- TBD
+- MIT 6.868 - The Society of Mind
 
 ## Resources
 
