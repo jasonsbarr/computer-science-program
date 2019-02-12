@@ -76,7 +76,7 @@ This all adds up to more courses than one would normally take to fulfill major r
 
 #### Computer Science Fundamentals
 
-- [MIT 6.000 - Intro to Computer Science and Programming (6.0001 + 6.0002 combined)](<https://github.com/jasonsbarr/computer-science-program/tree/master/courses/MIT%206.00>)
+- [MIT 6.00 - Intro to Computer Science and Programming (6.0001 + 6.0002 combined)](<https://github.com/jasonsbarr/computer-science-program/tree/master/courses/MIT%206.00>)
 - [Berkeley CS61AS - Structure and Interpretation of Computer Programs (Scheme version)](<https://github.com/jasonsbarr/computer-science-program/tree/master/courses/Berkeley%20CS61AS>)
 - Berkeley CS61B - Data Structures
 
@@ -94,7 +94,6 @@ This all adds up to more courses than one would normally take to fulfill major r
 #### Core Math
 
 - MIT 18.01 - Single Variable Calculus
-- MIT 18.02 - Multivariable Calculus
 - MIT 6.042 - Mathematics for Computer Science
 
 #### Core Computer Science and Engineering courses
@@ -109,6 +108,7 @@ This all adds up to more courses than one would normally take to fulfill major r
 
 #### Advanced Math
 
+- MIT 18.02 - Multivariable Calculus
 - MIT 18.03 - Differential Equations
 - MIT 18.06 - Linear Algebra
 
