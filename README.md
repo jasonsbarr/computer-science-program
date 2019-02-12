@@ -67,13 +67,13 @@ This all adds up to more courses than one would normally take to fulfill major r
 
 #### Math Review
 
-- Review I - Algebra & Geometry
+- [Review I - Algebra & Geometry](<https://github.com/jasonsbarr/computer-science-program/tree/master/courses/Algebra%20and%20Geometry%20Review>)
 - Review II - Trigonometry & Precalculus
 
 #### Computer Science Fundamentals
 
-- MIT 6.000 - Intro to Computer Science and Programming (6.0001 + 6.0002 combined)
-- Berkeley CS61AS - Structure and Interpretation of Computer Programs (Scheme version)
+- [MIT 6.000 - Intro to Computer Science and Programming (6.0001 + 6.0002 combined)](<https://github.com/jasonsbarr/computer-science-program/tree/master/courses/MIT%206.00>)
+- [Berkeley CS61AS - Structure and Interpretation of Computer Programs (Scheme version)](<https://github.com/jasonsbarr/computer-science-program/tree/master/courses/Berkeley%20CS61AS>)
 - Berkeley CS61B - Data Structures
 
 #### C Programming and Computer Architecture
@@ -83,7 +83,7 @@ This all adds up to more courses than one would normally take to fulfill major r
 
 #### Introduction to Programming
 
-- Stanford CS106A - Programming Methodology
+- [Stanford CS106A - Programming Methodology](<https://github.com/jasonsbarr/computer-science-program/tree/master/courses/Stanford%20CS106A>)
 - Stanford CS106B - Programming Abstractions
 - Stanford CS107 - Programming Paradigms
 
