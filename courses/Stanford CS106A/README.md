@@ -4,6 +4,10 @@
 
 To introduce the engineering of computer applications emphasizing modern software engineering principles: object-oriented design, decomposition, encapsulation, abstraction, and testing. Emphasis is on good programming style and the built-in facilities of respective languages.
 
+### Note
+
+The SEE version of the course is _really old_&mdash;like 2007 or 2008. I'll be using updated handouts, assignments, and exams from the most recent version(s) of the course with starter files that are compatible with the latest version(s) of Java.
+
 ## Course Materials
 
 ### Main
