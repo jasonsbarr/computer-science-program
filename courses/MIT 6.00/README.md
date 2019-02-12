@@ -21,7 +21,7 @@ To provide students with an understanding of the role computation can play in so
 ## Requirements
 
 - Problem sets for each week
-- All exercises for each lecture & in book
+- All exercises in book
 - Midterm
 - Final
 
