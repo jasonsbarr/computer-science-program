@@ -19,7 +19,9 @@ To introduce the engineering of computer applications emphasizing modern softwar
 - [Archived Spring 2018 course website](<http://stanford.edu/class/archive/cs/cs106a/cs106a.1186/>)
   - In case materials from the current course offering, e.g. practice finals, aren't yet available when I need them
 - [_The Art and Science of Java_](<https://www.amazon.com/Art-Science-Java-Eric-Roberts/dp/0321486129>) (main textbook)
-- [_Karel the Robot Learns Java_](http://stanford.edu/~stepp/karel/karel-the-robot-learns-java.pdf)
+- _Karel the Robot Learns Java_
+  - [PDF](http://stanford.edu/~stepp/karel/karel-the-robot-learns-java.pdf)
+  - [HTML](<https://web.stanford.edu/class/cs106a/karelReader/en/intro.html>)
 
 ### Supplemental
 
