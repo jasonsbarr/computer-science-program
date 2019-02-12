@@ -16,11 +16,15 @@
 
 ## Goal
 
-To attain a B.S.-level computer science education with a specialization in modern full-stack web development with data science applications in 1 year using material available to the general public outside of a university setting.
+To learn and assimilate the materials one would get in a B.S.-level computer science education in 1 year using material available to the general public outside of a university setting.
 
 I intend to retain the material for future personal and professional use, not just to cover it all in a short period of time.
 
 I will not be getting a degree for this work, and I probably won't take any of the courses for certificates or credit. The knowledge and skills are the point, not a piece of paper at the end.
+
+I also recognize there are aspects and benefits of an actual B.S. program that are impossible to get through this way of ordering a program, such as collaborating with students on group projects and getting feedback from course staff on my work.
+
+### Documenting Progress
 
 I will also document my progress through each course on my website to serve as a future resource for myself and anyone else who may be interested.
 
@@ -28,9 +32,9 @@ This will include the "ultralearning" method of essentially writing the textbook
 
 ## Materials
 
-I will use the following resources to create the curriculum:
+I will use the following materials to create the curriculum:
 
-- Open courses, course archives, and recorded lectures from university courses in CS, math, data science, and web development
+- Open courses, course archives, and recorded lectures from university courses in computer science, engineering, software development, and math
 - Books, preferably _legally_ available online (but I'll also definitely be buying some books).
   - Fortunately, in computer science and web development there are a large number of excellent books on many topics whose authors have generously made them freely available online
 - Technical papers and journal articles (again, preferably freely available online)
