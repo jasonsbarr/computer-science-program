@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.compiler.problem.missingSerialVersion=ignore
+org.eclipse.jdt.core.compiler.problem.unusedImport=ignore
+org.eclipse.jdt.core.compiler.problem.localVariableHiding=error
+org.eclipse.jdt.core.compiler.problem.undocumentedEmptyBlock=warning
+org.eclipse.jdt.core.compiler.problem.methodWithConstructorName=warning
+org.eclipse.jdt.core.compiler.problem.noEffectAssignment=warning
+org.eclipse.jdt.core.compiler.problem.emptyStatement=warning
+org.eclipse.jdt.core.compiler.problem.unusedParameter=warning

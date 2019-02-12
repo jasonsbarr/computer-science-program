@@ -1,0 +1,1962 @@
+
+<!-- saved from url=(0051)https://web.stanford.edu/class/cs106a/schedule.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CS106A</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+<link href="./syllabus_files/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./syllabus_files/style.css">
+
+<!-- Java Script -->
+<script async="" src="./syllabus_files/analytics.js.download"></script><script src="./syllabus_files/jquery.min.js.download"></script>
+<script src="./syllabus_files/moment.min.js.download"></script>
+<script src="./syllabus_files/bootstrap.min.js.download"></script>
+<script src="./syllabus_files/ace.js.download" type="text/javascript"></script><style id="ace_editor">.ace_editor {position: relative;overflow: hidden;font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;font-size: 12px;line-height: normal;direction: ltr;}.ace_scroller {position: absolute;overflow: hidden;top: 0;bottom: 0;background-color: inherit;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;}.ace_content {position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: text;min-width: 100%;}.ace_dragging, .ace_dragging * {cursor: move !important;}.ace_dragging .ace_scroller:before{position: absolute;top: 0;left: 0;right: 0;bottom: 0;content: '';background: rgba(250, 250, 250, 0.01);z-index: 1000;}.ace_dragging.ace_dark .ace_scroller:before{background: rgba(0, 0, 0, 0.01);}.ace_selecting, .ace_selecting * {cursor: text !important;}.ace_gutter {position: absolute;overflow : hidden;width: auto;top: 0;bottom: 0;left: 0;cursor: default;z-index: 4;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;}.ace_gutter-active-line {position: absolute;left: 0;right: 0;}.ace_scroller.ace_scroll-left {box-shadow: 17px 0 16px -16px rgba(0, 0, 0, 0.4) inset;}.ace_gutter-cell {padding-left: 19px;padding-right: 6px;background-repeat: no-repeat;}.ace_gutter-cell.ace_error {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABOFBMVEX/////////QRswFAb/Ui4wFAYwFAYwFAaWGAfDRymzOSH/PxswFAb/SiUwFAYwFAbUPRvjQiDllog5HhHdRybsTi3/Tyv9Tir+Syj/UC3////XurebMBIwFAb/RSHbPx/gUzfdwL3kzMivKBAwFAbbvbnhPx66NhowFAYwFAaZJg8wFAaxKBDZurf/RB6mMxb/SCMwFAYwFAbxQB3+RB4wFAb/Qhy4Oh+4QifbNRcwFAYwFAYwFAb/QRzdNhgwFAYwFAbav7v/Uy7oaE68MBK5LxLewr/r2NXewLswFAaxJw4wFAbkPRy2PyYwFAaxKhLm1tMwFAazPiQwFAaUGAb/QBrfOx3bvrv/VC/maE4wFAbRPBq6MRO8Qynew8Dp2tjfwb0wFAbx6eju5+by6uns4uH9/f36+vr/GkHjAAAAYnRSTlMAGt+64rnWu/bo8eAA4InH3+DwoN7j4eLi4xP99Nfg4+b+/u9B/eDs1MD1mO7+4PHg2MXa347g7vDizMLN4eG+Pv7i5evs/v79yu7S3/DV7/498Yv24eH+4ufQ3Ozu/v7+y13sRqwAAADLSURBVHjaZc/XDsFgGIBhtDrshlitmk2IrbHFqL2pvXf/+78DPokj7+Fz9qpU/9UXJIlhmPaTaQ6QPaz0mm+5gwkgovcV6GZzd5JtCQwgsxoHOvJO15kleRLAnMgHFIESUEPmawB9ngmelTtipwwfASilxOLyiV5UVUyVAfbG0cCPHig+GBkzAENHS0AstVF6bacZIOzgLmxsHbt2OecNgJC83JERmePUYq8ARGkJx6XtFsdddBQgZE2nPR6CICZhawjA4Fb/chv+399kfR+MMMDGOQAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: 2px center;}.ace_gutter-cell.ace_warning {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAmVBMVEX///8AAAD///8AAAAAAABPSzb/5sAAAAB/blH/73z/ulkAAAAAAAD85pkAAAAAAAACAgP/vGz/rkDerGbGrV7/pkQICAf////e0IsAAAD/oED/qTvhrnUAAAD/yHD/njcAAADuv2r/nz//oTj/p064oGf/zHAAAAA9Nir/tFIAAAD/tlTiuWf/tkIAAACynXEAAAAAAAAtIRW7zBpBAAAAM3RSTlMAABR1m7RXO8Ln31Z36zT+neXe5OzooRDfn+TZ4p3h2hTf4t3k3ucyrN1K5+Xaks52Sfs9CXgrAAAAjklEQVR42o3PbQ+CIBQFYEwboPhSYgoYunIqqLn6/z8uYdH8Vmdnu9vz4WwXgN/xTPRD2+sgOcZjsge/whXZgUaYYvT8QnuJaUrjrHUQreGczuEafQCO/SJTufTbroWsPgsllVhq3wJEk2jUSzX3CUEDJC84707djRc5MTAQxoLgupWRwW6UB5fS++NV8AbOZgnsC7BpEAAAAABJRU5ErkJggg==");background-position: 2px center;}.ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAJ0Uk5TAAB2k804AAAAPklEQVQY02NgIB68QuO3tiLznjAwpKTgNyDbMegwisCHZUETUZV0ZqOquBpXj2rtnpSJT1AEnnRmL2OgGgAAIKkRQap2htgAAAAASUVORK5CYII=");background-position: 2px center;}.ace_dark .ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAAChoaGAgIAqKiq+vr6tra1ZWVmUlJSbm5s8PDxubm56enrdgzg3AAAAAXRSTlMAQObYZgAAAClJREFUeNpjYMAPdsMYHegyJZFQBlsUlMFVCWUYKkAZMxZAGdxlDMQBAG+TBP4B6RyJAAAAAElFTkSuQmCC");}.ace_scrollbar {position: absolute;right: 0;bottom: 0;z-index: 6;}.ace_scrollbar-inner {position: absolute;cursor: text;left: 0;top: 0;}.ace_scrollbar-v{overflow-x: hidden;overflow-y: scroll;top: 0;}.ace_scrollbar-h {overflow-x: scroll;overflow-y: hidden;left: 0;}.ace_print-margin {position: absolute;height: 100%;}.ace_text-input {position: absolute;z-index: 0;width: 0.5em;height: 1em;opacity: 0;background: transparent;-moz-appearance: none;appearance: none;border: none;resize: none;outline: none;overflow: hidden;font: inherit;padding: 0 1px;margin: 0 -1px;text-indent: -1em;-ms-user-select: text;-moz-user-select: text;-webkit-user-select: text;user-select: text;}.ace_text-input.ace_composition {background: #f8f8f8;color: #111;z-index: 1000;opacity: 1;text-indent: 0;}.ace_layer {z-index: 1;position: absolute;overflow: hidden;white-space: pre;height: 100%;width: 100%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;/* setting pointer-events: auto; on node under the mouse, which changesduring scroll, will break mouse wheel scrolling in Safari */pointer-events: none;}.ace_gutter-layer {position: relative;width: auto;text-align: right;pointer-events: auto;}.ace_text-layer {font: inherit !important;}.ace_cjk {display: inline-block;text-align: center;}.ace_cursor-layer {z-index: 4;}.ace_cursor {z-index: 4;position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;border-left: 2px solid}.ace_slim-cursors .ace_cursor {border-left-width: 1px;}.ace_overwrite-cursors .ace_cursor {border-left-width: 0px;border-bottom: 1px solid;}.ace_hidden-cursors .ace_cursor {opacity: 0.2;}.ace_smooth-blinking .ace_cursor {-moz-transition: opacity 0.18s;-webkit-transition: opacity 0.18s;-o-transition: opacity 0.18s;-ms-transition: opacity 0.18s;transition: opacity 0.18s;}.ace_editor.ace_multiselect .ace_cursor {border-left-width: 1px;}.ace_marker-layer .ace_step, .ace_marker-layer .ace_stack {position: absolute;z-index: 3;}.ace_marker-layer .ace_selection {position: absolute;z-index: 5;}.ace_marker-layer .ace_bracket {position: absolute;z-index: 6;}.ace_marker-layer .ace_active-line {position: absolute;z-index: 2;}.ace_marker-layer .ace_selected-word {position: absolute;z-index: 4;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}.ace_line .ace_fold {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: inline-block;height: 11px;margin-top: -2px;vertical-align: middle;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi+P//fxgTAwPDBxDxD078RSX+YeEyDFMCIMAAI3INmXiwf2YAAAAASUVORK5CYII=");background-repeat: no-repeat, repeat-x;background-position: center center, top left;color: transparent;border: 1px solid black;-moz-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;cursor: pointer;pointer-events: auto;}.ace_dark .ace_fold {}.ace_fold:hover{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACBJREFUeNpi+P//fz4TAwPDZxDxD5X4i5fLMEwJgAADAEPVDbjNw87ZAAAAAElFTkSuQmCC");}.ace_tooltip {background-color: #FFF;background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));border: 1px solid gray;border-radius: 1px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);color: black;display: block;max-width: 100%;padding: 3px 4px;position: fixed;z-index: 999999;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: default;white-space: pre;word-wrap: break-word;line-height: normal;font-style: normal;font-weight: normal;letter-spacing: normal;pointer-events: none;}.ace_folding-enabled > .ace_gutter-cell {padding-right: 13px;}.ace_fold-widget {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0 -12px 0 1px;display: none;width: 11px;vertical-align: top;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42mWKsQ0AMAzC8ixLlrzQjzmBiEjp0A6WwBCSPgKAXoLkqSot7nN3yMwR7pZ32NzpKkVoDBUxKAAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: center;border-radius: 3px;border: 1px solid transparent;cursor: pointer;}.ace_folding-enabled .ace_fold-widget {display: inline-block;   }.ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42m3HwQkAMAhD0YzsRchFKI7sAikeWkrxwScEB0nh5e7KTPWimZki4tYfVbX+MNl4pyZXejUO1QAAAABJRU5ErkJggg==");}.ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAOUlEQVR42jXKwQkAMAgDwKwqKD4EwQ26sSOkVWjgIIHAzPiCgaqiqnJHZnKICBERHN194O5b9vbLuAVRL+l0YWnZAAAAAElFTkSuQmCCXA==");}.ace_fold-widget:hover {border: 1px solid rgba(0, 0, 0, 0.3);background-color: rgba(255, 255, 255, 0.2);-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);}.ace_fold-widget:active {border: 1px solid rgba(0, 0, 0, 0.4);background-color: rgba(0, 0, 0, 0.05);-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);}/*** Dark version for fold widgets*/.ace_dark .ace_fold-widget {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaLLAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC");}.ace_dark .ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2P4//8/AxQ7wNjIAjDMgC4AxjCVKBirIAAF0kz2rlhxpAAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCAYAAACAcVaiAAAAHElEQVQIW2P4//+/AxAzgDADlOOAznHAKgPWAwARji8UIDTfQQAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget:hover {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);background-color: rgba(255, 255, 255, 0.1);}.ace_dark .ace_fold-widget:active {-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);}.ace_fold-widget.ace_invalid {background-color: #FFB4B4;border-color: #DE5555;}.ace_fade-fold-widgets .ace_fold-widget {-moz-transition: opacity 0.4s ease 0.05s;-webkit-transition: opacity 0.4s ease 0.05s;-o-transition: opacity 0.4s ease 0.05s;-ms-transition: opacity 0.4s ease 0.05s;transition: opacity 0.4s ease 0.05s;opacity: 0;}.ace_fade-fold-widgets:hover .ace_fold-widget {-moz-transition: opacity 0.05s ease 0.05s;-webkit-transition: opacity 0.05s ease 0.05s;-o-transition: opacity 0.05s ease 0.05s;-ms-transition: opacity 0.05s ease 0.05s;transition: opacity 0.05s ease 0.05s;opacity:1;}.ace_underline {text-decoration: underline;}.ace_bold {font-weight: bold;}.ace_nobold .ace_bold {font-weight: normal;}.ace_italic {font-style: italic;}.ace_error-marker {background-color: rgba(255, 0, 0,0.2);position: absolute;z-index: 9;}.ace_highlight-marker {background-color: rgba(255, 255, 0,0.2);position: absolute;z-index: 8;}</style><style id="ace-tm">.ace-tm .ace_gutter {background: #f0f0f0;color: #333;}.ace-tm .ace_print-margin {width: 1px;background: #e8e8e8;}.ace-tm .ace_fold {background-color: #6B72E6;}.ace-tm {background-color: #FFFFFF;color: black;}.ace-tm .ace_cursor {color: black;}.ace-tm .ace_invisible {color: rgb(191, 191, 191);}.ace-tm .ace_storage,.ace-tm .ace_keyword {color: blue;}.ace-tm .ace_constant {color: rgb(197, 6, 11);}.ace-tm .ace_constant.ace_buildin {color: rgb(88, 72, 246);}.ace-tm .ace_constant.ace_language {color: rgb(88, 92, 246);}.ace-tm .ace_constant.ace_library {color: rgb(6, 150, 14);}.ace-tm .ace_invalid {background-color: rgba(255, 0, 0, 0.1);color: red;}.ace-tm .ace_support.ace_function {color: rgb(60, 76, 114);}.ace-tm .ace_support.ace_constant {color: rgb(6, 150, 14);}.ace-tm .ace_support.ace_type,.ace-tm .ace_support.ace_class {color: rgb(109, 121, 222);}.ace-tm .ace_keyword.ace_operator {color: rgb(104, 118, 135);}.ace-tm .ace_string {color: rgb(3, 106, 7);}.ace-tm .ace_comment {color: rgb(76, 136, 107);}.ace-tm .ace_comment.ace_doc {color: rgb(0, 102, 255);}.ace-tm .ace_comment.ace_doc.ace_tag {color: rgb(128, 159, 191);}.ace-tm .ace_constant.ace_numeric {color: rgb(0, 0, 205);}.ace-tm .ace_variable {color: rgb(49, 132, 149);}.ace-tm .ace_xml-pe {color: rgb(104, 104, 91);}.ace-tm .ace_entity.ace_name.ace_function {color: #0000A2;}.ace-tm .ace_heading {color: rgb(12, 7, 255);}.ace-tm .ace_list {color:rgb(185, 6, 144);}.ace-tm .ace_meta.ace_tag {color:rgb(0, 22, 142);}.ace-tm .ace_string.ace_regex {color: rgb(255, 0, 0)}.ace-tm .ace_marker-layer .ace_selection {background: rgb(181, 213, 255);}.ace-tm.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px white;border-radius: 2px;}.ace-tm .ace_marker-layer .ace_step {background: rgb(252, 255, 0);}.ace-tm .ace_marker-layer .ace_stack {background: rgb(164, 229, 101);}.ace-tm .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid rgb(192, 192, 192);}.ace-tm .ace_marker-layer .ace_active-line {background: rgba(0, 0, 0, 0.07);}.ace-tm .ace_gutter-active-line {background-color : #dcdcdc;}.ace-tm .ace_marker-layer .ace_selected-word {background: rgb(250, 250, 255);border: 1px solid rgb(200, 200, 250);}.ace-tm .ace_indent-guide {background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;}</style><style>    .error_widget_wrapper {        background: inherit;        color: inherit;        border:none    }    .error_widget {        border-top: solid 2px;        border-bottom: solid 2px;        margin: 5px 0;        padding: 10px 40px;        white-space: pre-wrap;    }    .error_widget.ace_error, .error_widget_arrow.ace_error{        border-color: #ff5a5a    }    .error_widget.ace_warning, .error_widget_arrow.ace_warning{        border-color: #F1D817    }    .error_widget.ace_info, .error_widget_arrow.ace_info{        border-color: #5a5a5a    }    .error_widget.ace_ok, .error_widget_arrow.ace_ok{        border-color: #5aaa5a    }    .error_widget_arrow {        position: absolute;        border: solid 5px;        border-top-color: transparent!important;        border-right-color: transparent!important;        border-left-color: transparent!important;        top: -5px;    }</style>
+<script src="./syllabus_files/mode-java.js.download"></script>
+<script src="./syllabus_files/theme-eclipse.js.download"></script>
+
+
+<!-- Stanford -->
+<link href="./syllabus_files/css" rel="stylesheet" type="text/css">
+<link href="./syllabus_files/css(1)" rel="stylesheet" type="text/css">
+
+<!-- Custom Code Editor Settings -->
+<script>
+function importEditorCode(id) {
+	var code = document.getElementById(id);
+	var editor = ace.edit(id);
+	editor.setTheme('ace/theme/eclipse');
+	editor.session.setMode("ace/mode/java");
+	// make it so that the text isn't horizontally scrolled
+	editor.getSession().setUseWrapMode(true);
+	// can the user modify the code?
+	editor.setReadOnly(true);
+	// default tab size is 3
+	editor.getSession().setOptions({
+	    tabSize: 2,
+	    useSoftTabs: true
+	});
+	editor.setOptions({
+	    maxLines: Infinity
+	});
+	//dont allow selection
+	editor.setHighlightActiveLine(false);
+	editor.renderer.$cursorLayer.element.style.opacity = 0;
+	editor.on('changeSelection', function(e) {
+	    editor.selection.setSelectionRange({
+	        start: {
+	            row: 0,
+	            column: 0
+	        },
+	        end: {
+	            row: 0,
+	            column: 0
+	        }
+	    });
+	});
+	// no line numbers by default
+	editor.renderer.setShowGutter(false);
+	// this line turns off automatic error detection
+	editor.getSession().setUseWorker(false);
+	code.style.fontSize='13px';
+	return editor; 
+}
+</script>
+</head>
+<body>
+
+	<!-- Navigation Bar -->
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand brand" href="https://web.stanford.edu/class/cs106a//">CS106A</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+        <!--<li><a href="#">Lectures</a></li>-->
+
+        <li class="dropdown">
+          <a href="https://web.stanford.edu/class/cs106a/schedule.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lectures <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/1-Welcome">1 - Welcome</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/2-ControlFlow">2 - Control Flow</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/3-Decomposition">3 - Decomposition</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/4-Variables">4 - Variables</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/5-ControlFlowRevisited">5 - ControlFlowRevisited</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/6-NestedLoops">6 - NestedLoops</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/7-Methods">7 - Methods</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/8-Tracing">8 - Tracing</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/9-Animation">9 - Animation</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/10-Events">10 - Events</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/11-Memory">11 - Memory</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/12-TextProcessing">12 - TextProcessing</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/13-Files">13 - FileReading</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/lectures/14-Arrays">14 - Arrays</a></li>
+            <!--<li><a href="//web.stanford.edu/class/cs106a/lectures/15-Lists">15 - Lists</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/16-Matrix">16 - Matrix</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/17-HashMaps">17 - HashMaps</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/18-Collections">18 - Collections</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/19-Interactors">19 - Interactors</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/20-Classes1">20 - Classes 1</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/21-Classes2">21 - Classes 2</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/22-Practice">22 - DataVisualization</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/23-Internet">23 - Internet</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/24-SocialNetworks">24 - Social Networks</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/25-LifeAfterCS106A">25 - Life After CS106A</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/26-Overview">26 - Overview</a></li> -->
+            <!-- <li><a href="//web.stanford.edu/class/cs106a/lectures/25-Review1">25 - eview 1</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/lectures/26-Review2">26 - Review 2</a></li>-->
+          </ul>
+
+        </li>
+
+        <li class="dropdown">
+          <a href="https://web.stanford.edu/class/cs106a/schedule.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Handouts <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://web.stanford.edu/class/cs106a/handouts/General%20Information.pdf">General Information</a></li>
+
+            <li><a href="https://web.stanford.edu/class/cs106a/handouts/SCPD%20Info.pdf">SCPD Info</a></li>
+
+            <li><a href="https://web.stanford.edu/class/cs106a/handouts/Course%20Placement.pdf">Course Placement</a></li>
+
+             <li><a href="https://web.stanford.edu/class/cs106a/handouts/courseCommunication.html">Course Communication</a></li>
+
+            <li><a href="https://web.stanford.edu/class/cs106a/handouts/Honor%20Code.pdf">Honor Code</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/handouts/Using%20Karel%20with%20Eclipse.pdf">Using Karel with Eclipse</a></li>
+
+            <li><a href="https://web.stanford.edu/class/cs106a/handouts/submitting.html">Submitting Your Assignments</a></li>
+
+            <li><a href="https://web.stanford.edu/class/cs106a/handouts/javaReference.html">Java Reference</a></li>
+
+            <li><a href="https://web.stanford.edu/class/cs106a/handouts/debugger.html">Debugging</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/handouts/midterm.html">Midterm Info</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/handouts/9%20-%20Exam%20Strategies.pdf">Exam Strategies</a></li>
+             <li><a href="https://web.stanford.edu/class/cs106a/handouts/Strings.pdf">More String Examples</a></li>
+             <!-- <li><a href="//web.stanford.edu/class/cs106a/handouts/Graphics Contest.pdf">Graphics Contest</a></li>
+             <li><a href="//web.stanford.edu/class/cs106a/handouts/final.html">Final Info</a></li> -->
+
+            <!-- to release
+              <li><a href="//web.stanford.edu/class/cs106a/handouts/11 - Strings Examples.pdf">11 String Examples</a></li>
+              <li><a href="//web.stanford.edu/class/cs106a/handouts/16 - ArrayList.pdf">16 ArrayLists for Hangman</a></li>
+              <li><a href="//web.stanford.edu/class/cs106a/handouts/17 - More Midterm Solutions.pdf">17 More Midterm Solutions</a></li>
+            -->
+
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="https://web.stanford.edu/class/cs106a/schedule.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Assignments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+
+            <li><a href="https://goo.gl/forms/gPZRC1QyPvROxm1R2">0 - Who are you</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/assn/karel.html">1 - Karel</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/assn/simpleJava.html">2 - SimpleJava</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/assn/breakout.html">3 - Breakout</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/assn/hangman.html">4 - Hangman</a>
+            <!--<li><a href="//web.stanford.edu/class/cs106a/assn/imageshop.html">5 - ImageShop</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/assn/nameSurfer.html">6 - NameSurfer</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/assn/steamtunnel.html">7 - SteamTunnel</a></li>
+            <li class="divider"></li>
+            <li><a href="//web.stanford.edu/class/cs106a/assn/style.html">Style Guide</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/starterCode/GraphicsContest.zip">Graphics Contest Project</a></li> -->
+          </li></ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="https://web.stanford.edu/class/cs106a/schedule.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Examples <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+
+            <li><a href="https://web.stanford.edu/class/cs106a/examples/stepUp.html">Step Up</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/examples/place100.html">Place 100</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/examples/beeperLine.html">Beeper Line</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/examples/invert.html">Invert</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/examples/restaurant.html">Restaurant</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/examples/carbonDating.html">Carbon Dating</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/examples/emc2.html">E=MC2</a></li>
+            <li><a href="https://web.stanford.edu/class/cs106a/examples/awesome.html">Graphics Demo</a></li>
+
+            <!--<li><a href="//web.stanford.edu/class/cs106a/examples/stringArt.html">String Art</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/examples/averageMethod.html">Average Method</a></li>
+            <li><a href="//web.stanford.edu/class/cs106a/examples/goCenter.html">Center Move Rect</a></li> -->
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="https://web.stanford.edu/class/cs106a/schedule.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+
+              <li class="dropdown-header">Section 1</li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/1/Section1.pdf" target="_blank">Section 1 Handout</a></li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/1/Section1-Solutions.pdf" target="_blank">Section 1 Solutions</a></li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/1/Section1.zip">Section 1 Code</a></li>
+              <li class="divider"></li>
+
+              <li class="dropdown-header">Section 2</li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/2/Section2.pdf" target="_blank">Section 2 Handout</a></li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/2/Section2-Solutions.pdf" target="_blank">Section 2 Solutions</a></li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/2/Section2.zip">Section 2 Code</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Section 3</li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/3/Section3.pdf" target="_blank">Section 3 Handout</a></li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/3/Section3-StarterCode.zip">Section 3 Starter Code</a></li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/3/Section3-Solutions.pdf" target="_blank">Section 3 Solutions</a></li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/3/Section3-SolutionCode.zip">Section 3 Code</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Section 4</li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/4/Section4.pdf" target="_blank">Section 4 Handout</a></li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/4/Section4-Solutions.pdf" target="_blank">Section 4 Solutions</a></li>
+              <li><a href="https://web.stanford.edu/class/cs106a/section/4/Section4.zip">Section 4 Code</a></li>
+              <!-- <li class="divider"></li>
+              <li class="dropdown-header">Section 5</li>
+              <li><a href="//web.stanford.edu/class/cs106a/section/5/Section5.pdf" target="_blank">Section 5 Handout</a></li>
+              <li><a href="//web.stanford.edu/class/cs106a/section/5/Section5-Solutions.pdf" target="_blank">Section 5 Solutions</a></li>
+              <li><a href="//web.stanford.edu/class/cs106a/section/5/Section5.zip">Section 5 Code</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Section 6</li>
+              <li><a href="//web.stanford.edu/class/cs106a/section/6/Section6.pdf" target="_blank">Section 6 Handout</a></li>
+              <li><a href="//web.stanford.edu/class/cs106a/section/6/Section6-Solutions.pdf" target="_blank">Section 6 Solutions</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Section 7</li>
+              <li><a href="//web.stanford.edu/class/cs106a/section/7/Section7.pdf" target="_blank">Section 7 Handout</a></li>
+              <li><a href="//web.stanford.edu/class/cs106a/section/7/Section7-Solutions.pdf" target="_blank">Section 7 Solutions</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Section 8</li>
+              <li><a href="//web.stanford.edu/class/cs106a/section/8/Section8.pdf" target="_blank">Section 8 Handout</a></li>
+              <li><a href="//web.stanford.edu/class/cs106a/section/8/Section8.zip">Section 8 Code</a></li>
+              <li><a href="//web.stanford.edu/class/cs106a/section/8/Section8-Solutions.pdf" target="_blank">Section 8 Solutions</a></li> -->
+
+
+              <!--%include templates/parts/sectionMaterialsDropdownList.html
+              <li class="divider"></li>
+              <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/section/SectionSignup.aspx">Section Signup</a></li>
+             <li><a href="https://cs198.stanford.edu/cs198/auth/section/SwitchSection.aspx">Late Section Signup</a></li>
+              <li><a href="https://cs198.stanford.edu/cs198/auth/section/RemoteSignup.aspx">Remote SCPD Signup</a></li>
+              <li><a href="https://cs198.stanford.edu/cs198/auth/section/DropClass.aspx">Drop Section</a></li>-->
+
+
+              <li class="divider"></li>
+              <li><a href="https://cs198.stanford.edu/cs198/auth/default.aspx">View My Section</a></li>
+              <li><a href="https://cs198.stanford.edu/cs198/auth/section/ViewSections.aspx">View All Sections</a></li>
+
+          </ul>
+          </li></ul>
+        
+
+        <!--<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tools <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="">Nothing Yet</a></li>
+          </ul>
+        </li>-->
+
+      
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://web.stanford.edu/class/cs106a/schedule.html"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Schedule</a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	<div class="container">
+			
+		<!-- Header -->
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="pageHeader">
+					<h1>
+						Course Schedule
+					</h1>
+					
+
+				</div>
+				<hr>
+
+				<!--<center>
+				<img style="width:80%" src="//web.stanford.edu/class/cs106a/img/overview/overview.png">	
+			</center>-->
+			</div>
+		</div>
+
+			
+
+		<!--<div class="row">
+			<div class="col-sm-12">
+				<p>
+					In CS106B you are going to learn great things! The main objective of the course is to learn how to model and solve complex problems with computers.
+				</p>
+
+				<hr/>
+			</div>
+		</div>-->
+		
+		
+				
+		<div class="row">
+			<div class="col-sm-12">
+				<p style="margin-bottom:20px">
+					The schedule is subject to change by the management at any time.
+				</p>
+
+                                
+				<p>
+<!--
+
+    Assns:
+    1. Karel
+    2. Simple Java
+    3. Breakout
+    4. Hangman
+    5. Yahtzee
+    6. NameSurfer
+    7. FacePamphlet
+-->
+
+</p><div class="table-responsive">
+<table class="table table-bordered">
+<thead>
+<tr>
+<th style="col-sm-3">Week</th>
+<th style="col-sm-3">Monday</th>
+<th style="col-sm-3">Wednesday</th>
+<th style="col-sm-3">Friday</th>
+</tr>
+</thead>
+
+<!-- Week 1 -->
+<tbody><tr>
+<td class="calendarWeekCell">1</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+        </div>
+
+        <p class="subtleHeading calendarDate">Jan 7th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                1: Welcome to CS106A!
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/1-Welcome/1-Welcome.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/1-Welcome/1-Welcome.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/1-Welcome/code">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/1-Welcome/Lecture1.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Karel Ch. 1-3
+        </div>
+
+        <p class="subtleHeading calendarDate">Jan 9th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                2: Control Flow
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/2-ControlFlow/2-ControlFlow.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/2-ControlFlow/2-ControlFlow.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/2-ControlFlow/MeetKarel">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/2-ControlFlow/MeetKarel.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal2">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal2" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel2">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/MeetKarel">MeetKarel</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/ThreeBeepers">ThreeBeepers</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/karelLoop1">KarelLoop1</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Sweeper">Sweeper</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Racetrack">Racetrack</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/RoadRepairKarel">RoadRepair</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Karel Ch. 4-6
+        </div>
+
+        <p class="subtleHeading calendarDate">Jan 11th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                3: Decomposition
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/3-Decomposition/3-Decomposition.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/3-Decomposition/3-Decomposition.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/3-Decomposition/src">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/3-Decomposition/Lecture3.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal3">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal3" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel3">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/HurdleJumper">HurdleJumper</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Roomba">Roomba</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/BeeperCollector">BeeperCollector</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Sweeper">Sweeper</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/MazeRunner">MazeRunner</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/karel/DoubleBeepers">DoubleBeepers</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td></tr>
+
+<!-- Week 2 -->
+<tr>
+<td class="calendarWeekCell">2</td>
+
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Java Ch 1-3
+        </div>
+
+        <p class="subtleHeading calendarDate">Jan 14th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                4: Intro to Java
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/4-Variables/4-Variables.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/4-Variables/4-Variables.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/4-Variables/src">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/4-Variables/Lecture4.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal4">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal4" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel4">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/basics/FearTheTree">FearTheTree</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/expressions/expressionsNumbers1">ExpressionsNumbers1</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/expressions/expressionsStrings1">ExpressionsStrings1</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/basics/InchesToCentimeters">InchesToCentimeters</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Chapter 3
+        </div>
+
+        <p class="subtleHeading calendarDate">Jan 16th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                5: Control Flow Revisited
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/5-ControlFlowRevisited/5-ControlFlowRevisited.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/5-ControlFlowRevisited/5-ControlFlowRevisited.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/5-ControlFlowRevisited/src">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/5-ControlFlowRevisited/Lecture5.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal5">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal5" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel5">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/loops/ComputeSumOfDigits">ComputeSumOfDigits</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/loops/RangeOfNumbers">RangeOfNumbers</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/loops/SentinelSum">SentinelSum</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+                Due: Assn #1
+            <br>
+                Read: Chapter 4
+        </div>
+
+        <p class="subtleHeading calendarDate">Jan 18th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                6: Graphics + Loops
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/6-NestedLoops/6-NestedLoops.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/6-NestedLoops/6-NestedLoops.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/6-NestedLoops/src">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/6-NestedLoops/Lecture6.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal6">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal6" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel6">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/CircleLoops">CircleLoops</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td></tr>
+
+
+<!-- Week 3 -->
+<tr>
+<td class="calendarWeekCell">3</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell" style="background-color:aliceblue">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+        </div>
+
+        <p class="subtleHeading calendarDate">Jan 21st</p>
+
+        <!-- If there is a lecture number and title, show it -->
+            Martin Luther King Jr Day
+
+        <!-- If there is no class, show that -->
+            <br>No class
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Chapter 5
+        </div>
+
+        <p class="subtleHeading calendarDate">Jan 23rd</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                7: Methods Revisited
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/7-Methods/7-Methods.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/7-Methods/7-Methods.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/7-Methods/src">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/7-Methods/Lecture7.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal7">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal7" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel7">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/boxOfStars">boxOfStars</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/triangle">triangle</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/ParameterMystery1">ParameterMystery1</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/sumOfRange">sumOfRange</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/factorial">factorial</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/ReturnMystery1">ReturnMystery1</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/isPrimeNumber">isPrimeNumber</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/threeConsecutive">threeConsecutive</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Chapter 7
+        </div>
+
+        <p class="subtleHeading calendarDate">Jan 25th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                8: Tracing Programs
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/8-Tracing/8-Tracing.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/8-Tracing/8-Tracing.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/8-Tracing/src">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/8-Tracing/Lecture8.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal8">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal8" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel8">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/boxOfStars">boxOfStars</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/triangle">triangle</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/ParameterMystery1">ParameterMystery1</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/sumOfRange">sumOfRange</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/factorial">factorial</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/ReturnMystery1">ReturnMystery1</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/isPrimeNumber">isPrimeNumber</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/parameters/threeConsecutive">threeConsecutive</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td></tr>
+
+
+
+<!-- Week 4 -->
+<tr>
+<td class="calendarWeekCell">4</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+                Due: Assn #2
+            <br>
+                Read: Chapter 6.1
+        </div>
+
+        <p class="subtleHeading calendarDate">Jan 28th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                9: Animation
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/9-Animation/9-Animation.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/9-Animation/9-Animation.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/9-Animation/src">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/9-Animation/Lecture9.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Chapter 10-10.4
+        </div>
+
+        <p class="subtleHeading calendarDate">Jan 30th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                10: Events
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/10-Events/10-Events.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/10-Events/10-Events.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/10-Events/src">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/10-Events/Lecture10.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal10">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal10" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel10">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/GoogleyEyes">GoogleyEyes</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/Frogger">Frogger</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/PicturePanel">PicturePanel</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/ShapeStamper">ShapeStamper</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/CircleJumper">CircleJumper</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/TicTacToe">TicTacToe</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Chapter 7
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 1st</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                11: Memory
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/11-Memory/11-Memory.pdf">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/11-Memory/11-Memory.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal11">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal11" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel11">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/GoogleyEyes">GoogleyEyes</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td></tr>
+
+<!-- Week 5 -->
+<tr>
+<td class="calendarWeekCell">5</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Chapter 8.1-8.4
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 4th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                12: Text
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/12-TextProcessing/12-TextProcessing.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/12-TextProcessing/12-TextProcessing.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/12-TextProcessing/src">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/12-TextProcessing/Lecture12.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal12">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal12" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel12">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/strings/convertToAltCaps">convertToAltCaps</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/strings/isVowel">isVowel</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/strings/repeat">repeat</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/strings/dracula">dracula</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/strings/marshallMathers">marshallMathers</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+                Due: Assn #3
+            <br>
+                Read: Chapter 8.5
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 6th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                13: Files
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/13-Files/13-Files.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/13-Files/13-Files.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/13-Files/src">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/13-Files/Lecture13.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal13">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal13" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel13">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/fileio/flipCoins">flipCoins</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/fileio/Weather">Weather</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/fileio/Election">Election</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/fileio/Hours">Hours</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Chapter 11.1-11.8
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 8th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                14: Arrays
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/14-Arrays/14-Arrays.pptx">
+                    <span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/14-Arrays/14-Arrays.pdf">pdf</a>)
+                    <br>
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+                    <a href="https://web.stanford.edu/class/cs106a/lectures/14-Arrays/src">
+                    <span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code
+                    </a> 
+                    (<a href="https://web.stanford.edu/class/cs106a/lectures/14-Arrays/Lecture14.zip">zip</a>)
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+                  </p><p>
+                      <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal14">
+                        Practice
+                      </button>
+                  
+                    </p><div class="modal fade" id="practiceModal14" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="practiceLabel14">Practice Problems</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Practice with these additional problems:</p>
+                            <ul>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/arrays/mystery1">mystery1</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/arrays/print">print</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/arrays/computeAverage">computeAverage</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/arrays/sorted">sorted</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/arrays/countDuplicates">countDuplicates</a></li>
+                                <li><a href="http://www.codestepbystep.com/problem/view/java/arrays/switchPairs">switchPairs</a></li>
+                            </ul>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <p></p>
+
+       
+    </div>
+</td>
+<!-- Week 6 -->
+</tr><tr>
+<td class="calendarWeekCell">6</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell" style="background-color:aliceblue">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Midterm 7-9pm
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 11th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+            Midterm Day
+
+        <!-- If there is no class, show that -->
+            <br>No class
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Chapter 12.4
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 13th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                15: ArrayLists
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Chapter 12
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 15th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                16: Matrices
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td></tr>
+<tr>
+
+<!-- Week 7 -->
+<td class="calendarWeekCell">7</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell" style="background-color:aliceblue">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 18th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+            Presidents Day
+
+        <!-- If there is no class, show that -->
+            <br>No class
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+            
+                <!-- code -->
+                <!-- If there is code, show it -->
+
+                <!-- practice -->
+                <!-- If there is practice, show a button for it -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+                Due: Assn #4
+            <br>
+                Read: Chapter 11
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 20th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                17: HashMaps
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Chapter 13
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 22nd</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                18: Collections
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td></tr>
+
+<!-- Week 8 -->
+<tr>
+<td class="calendarWeekCell">8</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Chapter 10.7-10.8
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 25th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                19: Interactors
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+                Due: Assn #5
+            <br>
+                Read: Chapter 10.5-10.8
+        </div>
+
+        <p class="subtleHeading calendarDate">Feb 27th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                20: Variable Type Design
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Read: Chapter 10.5-10.8
+        </div>
+
+        <p class="subtleHeading calendarDate">Mar 1st</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                21: Classes
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td></tr>
+
+<!-- Week 9 -->
+<tr>
+<td class="calendarWeekCell">9</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                
+        </div>
+
+        <p class="subtleHeading calendarDate">Mar 4rd</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                22: Data Visualization
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                
+        </div>
+
+        <p class="subtleHeading calendarDate">Mar 6th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                23: The Internet
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+                Due: Assn #6
+        </div>
+
+        <p class="subtleHeading calendarDate">Mar 8th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                24: Clients
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td></tr>
+
+
+<!-- Week 10 -->
+<tr>
+<td class="calendarWeekCell">10</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+        </div>
+
+        <p class="subtleHeading calendarDate">Mar 11th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                25: Life After CS106A
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell">
+
+    <div style="position:relative">
+        <div class="inOut">
+            <br>
+        </div>
+
+        <p class="subtleHeading calendarDate">Mar 13th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+                26: Overview
+
+        <!-- If there is no class, show that -->
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with fields specified in the project README.
+    -->
+<td class="calendarCell" style="background-color:aliceblue">
+
+    <div style="position:relative">
+        <div class="inOut">
+                Due: Assn #7
+            <br>
+                Final: Mar 18th
+        </div>
+
+        <p class="subtleHeading calendarDate">Mar 15th</p>
+
+        <!-- If there is a lecture number and title, show it -->
+            Dead Day
+
+        <!-- If there is no class, show that -->
+            <br>No class
+
+        <br><br>
+        <p>
+            <!-- slides -->
+            <!-- If there are slides, show them -->
+
+       
+    </p></div>
+</td></tr>
+
+</tbody></table>
+</div>
+				<p></p>
+				<!--<hr/>-->
+			</div>
+		</div>
+
+		<!--<div class="row">
+			<div class="col-sm-12">
+				<h2>
+					Discussion Sections
+				</h2>
+				<p>
+					In addition to lecture, you must sign up for a weekly 50-minute section. In order to take
+CS 106B, you must sign up for a section between 5:00P.M., Thursday, January 7, and the
+close of enrollments at 5:00P.M. on Sunday, January 10. Please use the signup form at
+<a href="http://cs198.stanford.edu/section/">http://cs198.stanford.edu/section/</a>. Important note: Do not use Axess to sign
+up for sections; section enrollments made through Axess are simply ignored.
+				</p>
+				<hr/>
+			</div>
+		</div>
+
+		<div class="row" id="grades">
+			<div class="col-sm-12">
+				<h2>
+					Grades
+				</h2>
+				<p>
+					Your final grade in this course will be calculated using the following weights:
+				</p>
+				<div class="well" style="width:280px">
+					<h4>Weights</h4>
+					<table class="table table-condensed" style="margin-bottom:0px;">
+						<tbody>
+							<tr>
+								<td style="width: 180px">Section Participation</td>
+								<td>10%</td>
+							</tr>
+							<tr>
+								<td style="width: 120px">Programs</td>
+								<td>50%</td>
+							</tr>
+							<tr>
+								<td style="width: 120px">Midterm</td>
+								<td>15%</td>
+							</tr>
+							<tr>
+								<td style="width: 120px">Final</td>
+								<td>25%</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<p>
+					
+					Each of the exams is scaled to take account of the difficulty of the exam, which is nearly
+impossible to assess in advance. The other components and the final grade are not
+curved. If everyone does brilliantly in this class, everyone gets an A.
+				</p>
+				<hr/>
+			</div>
+		</div>
+
+		
+
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>
+					Programming Assignments
+				</h2>
+				<p>
+					CS 106B requires seven programming assignments, which are due on the dates given in
+the syllabus. Except for Assignment #7 (which is due at the very end of the quarter),
+your section leader will grade each of your assignments and then discuss how well you
+have done (and how you can improve on future assignments) in an interactive,
+one-on-one session. Assignments are graded separately for functionality and style.
+				</p>
+				<hr/>
+			</div>
+		</div>
+			
+		<div class="row">
+			<div class="col-sm-8">
+			<h2>
+				Late Policy
+			</h2>
+		</div>
+			<div class="col-sm-9">
+				
+
+				<div class="subsection">
+					
+					<p>
+						Each of the assignments is due at 5:00P.M. on the day specified in the syllabus.
+Assignments are submitted electronically using the procedure described in the first
+assignment. Important note: all assignments are due at 5:00P.M. sharp on the dates
+indicated on the assignment handout. Assignments submitted after 5:00 will be
+considered late.
+					</p>
+					<p>
+						Because each of you will probably come upon some time during the quarter where so
+much work piles up that you need a little extra time, every student begins the quarter with
+three free “late days.” To avoid any ambiguity, a “day” is defined as a class day. Thus, if
+your assignment was due on Friday but turned in the following Monday, that assignment
+would be one day late. Note: You cannot use late days on Assignment #7, which is due at the end of the quarter. After your late days for the quarter are exhausted, programs are assessed a late
+penalty of one category point per late day used (a ✓+ turns into a ✓, and so forth). Late
+days are valuable, and it pays to keep some around for the harder assignments toward the
+end of the quarter. In all cases, assignments must be turned in within a calendar week of
+their published due date.
+					</p>
+
+					<p>
+						In special circumstances (such as extended medical problems or other emergencies),
+extensions may be granted beyond the late days. To request an extension, send e-mail to
+the TA (Megan Faulk <mfaulk@stanford.edu>) no later than 24 hours before the
+program is due. Only the TA is authorized to approve such extensions. In particular, do
+not ask your section leader.
+					</p>
+				</div>
+
+				
+
+				
+
+			</div>
+			<div class="col-sm-3">
+				
+				<div class="faq well">
+					<h4 class="subheading">How Many Late Days?</h4>
+					<p>
+						Three late days. A “day” is defined as a class day.
+					</p>
+
+				</div>
+
+			</div>
+
+		</div>-->
+
+
+	
+
+
+
+<div class="row">
+	<div class="col-md-12">
+		<hr>
+
+		<div class="footer">
+			<p class="pull-left">
+				© Stanford 2019 | Created by Chris Piech.
+				CS106A has been developed over decades by many talented teachers. 
+			</p>
+		</div>
+	</div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74362126-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+	</div>
+
+	<script type="text/javascript">
+		$( ".moment" ).each(function( i ) {
+			var date = $(this).html()
+
+			var fromStr = moment(date, "YYYYMMDD").fromNow()
+
+			$(this).html(fromStr)
+		  });
+		//alert(moment("20160101", "YYYYMMDD").fromNow())
+	</script>
+
+
+</body></html>
