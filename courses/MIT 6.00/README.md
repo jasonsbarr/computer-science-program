@@ -15,7 +15,7 @@ To provide students with an understanding of the role computation can play in so
 
 ### Supplemental
 
-- [Alternative textbook - free](http://greenteapress.com/wp/think-python-2e/)
+- [Think Python 2e](http://greenteapress.com/wp/think-python-2e/)
 - [Tutorials](https://plus.google.com/u/0/106151843486000968534)
 
 ## Requirements
