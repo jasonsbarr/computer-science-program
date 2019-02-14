@@ -27,6 +27,7 @@ The SEE version of the course is _really old_&mdash;like 2007 or 2008. I'll be u
 ### Supplemental
 
 - [Geeks for Geeks Java Tutorials](<https://www.geeksforgeeks.org/java/>)
+- [TutorialsPoint Java Tutorial](<https://www.tutorialspoint.com/java/>)
 - _Think Java: How to Think Like a Computer Scientist 2e_
   - [Book](<http://greenteapress.com/wp/think-java-2e/>)
   - [Interactive version](<https://books.trinket.io/thinkjava2/>)
