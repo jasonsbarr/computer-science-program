@@ -23,6 +23,9 @@ The SEE version of the course is _really old_&mdash;like 2007 or 2008. I'll be u
 - [Archived Spring 2018 course website](<http://stanford.edu/class/archive/cs/cs106a/cs106a.1186/>)
   - In case materials from the current course offering, e.g. practice finals, aren't yet available when I need them
 - [_The Art and Science of Java_](<https://www.amazon.com/Art-Science-Java-Eric-Roberts/dp/0321486129>) (main textbook)
+- _Karel the Robot Learns Java_
+  - [PDF](http://stanford.edu/~stepp/karel/karel-the-robot-learns-java.pdf)
+  - [HTML](<https://web.stanford.edu/class/cs106a/karelReader/en/intro.html>)
 
 ### Supplemental
 
@@ -36,7 +39,7 @@ The SEE version of the course is _really old_&mdash;like 2007 or 2008. I'll be u
 
 - All practice problems in main textbook
 - All practice problems from lectures
-- All lecture and section programming assignments _except_ Karel
+- All lecture and section programming assignments
 - Practice midterm (Bluebook version)
 - Practice final (Bluebook version)
 
