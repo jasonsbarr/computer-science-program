@@ -8,8 +8,9 @@ To teach about programming and software by mastering the techniques used for con
 
 ### Main
 
+- [_Simply Scheme_ - prerequisite](https://people.eecs.berkeley.edu/~bh/ss-toc2.html)
+- [_How To Design Programs_ - prerequisite](https://htdp.org/)
 - [Course website](https://berkeley-cs61as.github.io/)
--   [_Simply Scheme_ - prerequisite](https://people.eecs.berkeley.edu/~bh/ss-toc2.html)
 - [Textbook and assignments (free)](https://berkeley-cs61as.github.io/textbook.html)
 - [Video lectures from old version of course](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter)
 -   _Structure and Interpretation of Computer Programs_
@@ -21,7 +22,6 @@ To teach about programming and software by mastering the techniques used for con
 
 - [CS 61A (Python version of course), Fall 2017 with video lectures](https://inst.eecs.berkeley.edu/~cs61a/fa17/)
 - [_Composing Programs_: free online textbook for CS 61A](http://composingprograms.com/)
-- [_How To Design Programs_](https://htdp.org/)
 - [1986 video lectures by SICP authors](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)
 
 ## Requirements
