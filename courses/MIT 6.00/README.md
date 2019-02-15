@@ -14,8 +14,11 @@ To provide students with an understanding of the role computation can play in so
 
 ### Supplemental
 
-- [Think Python 2e](http://greenteapress.com/wp/think-python-2e/)
-- [Tutorials](https://plus.google.com/u/0/106151843486000968534)
+- [_Think Python 2e_ (free online)](http://greenteapress.com/wp/think-python-2e/)
+- [Tutorials from EdX version of 6.0001](https://plus.google.com/u/0/106151843486000968534)
+- [_Think Stats 2e_ (free online)](https://greenteapress.com/wp/think-stats-2e/)
+- [_Think Like a Data Scientist_ (buy)](https://www.amazon.com/Think-Like-Scientist-step-step/dp/1633430278)
+
 
 ## Requirements
 
