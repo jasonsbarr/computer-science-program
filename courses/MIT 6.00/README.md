@@ -9,8 +9,7 @@ To provide students with an understanding of the role computation can play in so
 ### Main
 
 - [MIT OCW - 6.0001 - Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/index.htm)
-- [MIT OCW - 6.0002 - Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/>
-)
+- [MIT OCW - 6.0002 - Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/)
 - [Official textbook - buy](https://www.amazon.com/Introduction-Computation-Programming-Using-Python/dp/0262529629/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=PA4WJEFRBT09HDKVTWMQ)
 
 ### Supplemental
