@@ -2,7 +2,7 @@
 
 ## Term 1 (current)
 
-### Starting 2/18/2019
+### Starting 2/25/2019
 
 - [Algebra & Geometry Review](Algebra%20and%20Geometry%20Review)
 - [Berkeley CS 61AS - Structure and Interpretation of Computer Programs](Berkeley%20CS61AS)

@@ -16,7 +16,7 @@
 
 ## Goal
 
-To learn and assimilate the materials one would get in a B.S.-level computer science education in 1 year using material available to the general public outside of a university setting.
+To learn and assimilate the materials one would get in a B.S.-level computer science education using material available to the general public outside of a university setting.
 
 I intend to retain the material for future personal and professional use, not just to cover it all in a short period of time.
 
