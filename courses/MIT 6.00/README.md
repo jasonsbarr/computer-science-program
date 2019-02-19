@@ -18,6 +18,7 @@ To provide students with an understanding of the role computation can play in so
 - [Tutorials from EdX version of 6.0001](https://plus.google.com/u/0/106151843486000968534)
 - [_Think Stats 2e_ (free online)](https://greenteapress.com/wp/think-stats-2e/)
 - [_Think Like a Data Scientist_ (buy)](https://www.amazon.com/Think-Like-Scientist-step-step/dp/1633430278)
+- [_Computational and Inferential Thinking: The Foundations of Data Science_ (free online)](http://inferentialthinking.com/)
 
 
 ## Requirements
