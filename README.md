@@ -71,7 +71,7 @@ This all adds up to more courses than one would normally take to fulfill major r
 
 #### Math Review
 
-- [Review I - Algebra & Geometry](<https://github.com/jasonsbarr/computer-science-program/tree/master/courses/Algebra%20and%20Geometry%20Review>)
+- [Review I - College Algebra](<https://github.com/jasonsbarr/computer-science-program/tree/master/courses/College%20Algebra>)
 - Review II - Trigonometry & Precalculus
 
 #### Computer Science Fundamentals
