@@ -6,7 +6,7 @@
 - [Materials Used](#materials)
 - [Methodology](#methodology)
 - [Curriculum](#curriculum)
-- [Courses](#courses)
+  - [Courses](#courses)
 - [Resources](#resources)
   - [Program Design](#program-design)
   - [Ultralearning](#ultralearning)
