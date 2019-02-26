@@ -42,7 +42,7 @@ I will use the following materials to create the curriculum:
 
 ## Methodology
 
-- Work on 4 courses at a time until finished.
+- Work on at least 2 courses at a time until finished.
   - My focus will be on learning each course thoroughly, not necessarily on finishing the material in a particular time frame, but I will set prospective time frames for each set of courses to help me focus on daily progress and rapid assimilation of knowledge. 
   - Working on multiple courses at once will leverage techniques to help with learning and retention, like spaced repetition and interleaving
   - Making the courses sequential with a defined structure will alleviate my anxiety and ADHD/executive functioning issues that make open-ended projects difficult
